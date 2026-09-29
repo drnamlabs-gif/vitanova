@@ -1,0 +1,1044 @@
+{
+  "school": {
+    "P": 0.958,
+    "M": 0.059,
+    "group": 31.6,
+    "nnd": 7.1,
+    "hidden": 1,
+    "connections": 28,
+    "fitness": 0.0,
+    "wall": 37.0,
+    "history": [
+      {
+        "generation": 0,
+        "best": 0.4189254055095328,
+        "mean": 0.07747652602165887,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 1,
+        "best": 0.5217458514838769,
+        "mean": 0.2282250139404658,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 2,
+        "best": 0.6389384088324507,
+        "mean": 0.3114493657651933,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 3,
+        "best": 0.6389384088324507,
+        "mean": 0.3248436409769534,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 4,
+        "best": 0.6389384088324507,
+        "mean": 0.35396552693144034,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 5,
+        "best": 0.767238976455904,
+        "mean": 0.42964604494548964,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 6,
+        "best": 0.771933744537512,
+        "mean": 0.3946188346632262,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 7,
+        "best": 0.8070133827947167,
+        "mean": 0.4689513287431186,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 8,
+        "best": 0.8070133827947167,
+        "mean": 0.4400093250538079,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 9,
+        "best": 0.871058411583826,
+        "mean": 0.4609992941191442,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 10,
+        "best": 0.871058411583826,
+        "mean": 0.5030945195557803,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 11,
+        "best": 0.871058411583826,
+        "mean": 0.4873666526593724,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 12,
+        "best": 0.871058411583826,
+        "mean": 0.4760940675680406,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 13,
+        "best": 0.871058411583826,
+        "mean": 0.42184123688333725,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 14,
+        "best": 0.871058411583826,
+        "mean": 0.49134756806654895,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 15,
+        "best": 0.871058411583826,
+        "mean": 0.44076422879996824,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 16,
+        "best": 0.871058411583826,
+        "mean": 0.45854827094757866,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 17,
+        "best": 0.871058411583826,
+        "mean": 0.4879268974107282,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 18,
+        "best": 0.871058411583826,
+        "mean": 0.44041516389100904,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 19,
+        "best": 0.871058411583826,
+        "mean": 0.46597363854981444,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 20,
+        "best": 0.871058411583826,
+        "mean": 0.4397854910993629,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 21,
+        "best": 0.871058411583826,
+        "mean": 0.5008946755308485,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 22,
+        "best": 0.871058411583826,
+        "mean": 0.4899371705293294,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 23,
+        "best": 0.871058411583826,
+        "mean": 0.4839347431336373,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 24,
+        "best": 0.871058411583826,
+        "mean": 0.48059678386087656,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 25,
+        "best": 0.871058411583826,
+        "mean": 0.5282186615448182,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 26,
+        "best": 0.871058411583826,
+        "mean": 0.4944634943645038,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 27,
+        "best": 0.871058411583826,
+        "mean": 0.4927572170377932,
+        "species": 1,
+        "hidden": 1,
+        "conns": 29
+      },
+      {
+        "generation": 28,
+        "best": 0.9067679171076967,
+        "mean": 0.5365321452987689,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 29,
+        "best": 0.9067679171076967,
+        "mean": 0.4963031601425335,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 30,
+        "best": 0.9067679171076967,
+        "mean": 0.5718912421869667,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 31,
+        "best": 0.9067679171076967,
+        "mean": 0.5166778421280068,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 32,
+        "best": 0.9067679171076967,
+        "mean": 0.5082881628554975,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 33,
+        "best": 0.9067679171076967,
+        "mean": 0.49193228157943547,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 34,
+        "best": 0.9067679171076967,
+        "mean": 0.4839416172157153,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 35,
+        "best": 0.9067679171076967,
+        "mean": 0.5206517644033805,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 36,
+        "best": 0.9067679171076967,
+        "mean": 0.5186350506138272,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 37,
+        "best": 0.9067679171076967,
+        "mean": 0.5277009632881675,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 38,
+        "best": 0.9067679171076967,
+        "mean": 0.5145512301981287,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      },
+      {
+        "generation": 39,
+        "best": 0.9067679171076967,
+        "mean": 0.4985017157026089,
+        "species": 1,
+        "hidden": 1,
+        "conns": 28
+      }
+    ],
+    "genome": {
+      "nodes": {
+        "0": "input",
+        "1": "input",
+        "2": "input",
+        "3": "input",
+        "4": "input",
+        "5": "input",
+        "6": "input",
+        "7": "input",
+        "8": "input",
+        "9": "output",
+        "10": "output",
+        "11": "output",
+        "18": "hidden"
+      },
+      "conns": [
+        [
+          0,
+          9,
+          -0.509,
+          true
+        ],
+        [
+          0,
+          10,
+          0.628,
+          true
+        ],
+        [
+          0,
+          11,
+          0.26,
+          true
+        ],
+        [
+          1,
+          9,
+          1.83,
+          true
+        ],
+        [
+          1,
+          10,
+          -0.444,
+          true
+        ],
+        [
+          1,
+          11,
+          -0.428,
+          true
+        ],
+        [
+          2,
+          9,
+          -1.803,
+          true
+        ],
+        [
+          2,
+          10,
+          -2.027,
+          true
+        ],
+        [
+          2,
+          11,
+          0.699,
+          true
+        ],
+        [
+          3,
+          9,
+          0.301,
+          true
+        ],
+        [
+          3,
+          10,
+          -1.275,
+          true
+        ],
+        [
+          3,
+          11,
+          0.675,
+          true
+        ],
+        [
+          4,
+          9,
+          0.118,
+          true
+        ],
+        [
+          4,
+          10,
+          3.33,
+          false
+        ],
+        [
+          4,
+          11,
+          -1.984,
+          true
+        ],
+        [
+          5,
+          9,
+          1.105,
+          true
+        ],
+        [
+          5,
+          10,
+          0.727,
+          true
+        ],
+        [
+          5,
+          11,
+          1.411,
+          true
+        ],
+        [
+          6,
+          9,
+          0.531,
+          true
+        ],
+        [
+          6,
+          10,
+          1.082,
+          true
+        ],
+        [
+          6,
+          11,
+          0.243,
+          true
+        ],
+        [
+          7,
+          9,
+          -1.549,
+          true
+        ],
+        [
+          7,
+          10,
+          0.292,
+          true
+        ],
+        [
+          7,
+          11,
+          -0.386,
+          true
+        ],
+        [
+          8,
+          9,
+          2.205,
+          true
+        ],
+        [
+          8,
+          10,
+          3.573,
+          true
+        ],
+        [
+          8,
+          11,
+          1.719,
+          true
+        ],
+        [
+          8,
+          18,
+          0.216,
+          true
+        ],
+        [
+          18,
+          10,
+          4.044,
+          true
+        ]
+      ]
+    }
+  },
+  "milling": {
+    "P": 0.285,
+    "M": 0.662,
+    "group": 12.8,
+    "nnd": 7.6,
+    "hidden": 0,
+    "connections": 27,
+    "fitness": 0.0,
+    "wall": 36.2,
+    "history": [
+      {
+        "generation": 0,
+        "best": 0.058885096153585045,
+        "mean": 0.003822536855053419,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 1,
+        "best": 0.09296059952905322,
+        "mean": 0.006506226760605804,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 2,
+        "best": 0.16418677591059525,
+        "mean": 0.018905635653336014,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 3,
+        "best": 0.21692772171207486,
+        "mean": 0.034247433085391916,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 4,
+        "best": 0.264466077264408,
+        "mean": 0.05761310639964002,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 5,
+        "best": 0.264466077264408,
+        "mean": 0.043475091106584936,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 6,
+        "best": 0.264466077264408,
+        "mean": 0.055845948480760584,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 7,
+        "best": 0.264466077264408,
+        "mean": 0.06068284781253614,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 8,
+        "best": 0.264466077264408,
+        "mean": 0.05875626584486393,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 9,
+        "best": 0.264466077264408,
+        "mean": 0.04228577891335777,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 10,
+        "best": 0.264466077264408,
+        "mean": 0.06201874665322674,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 11,
+        "best": 0.264466077264408,
+        "mean": 0.05195329329346222,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 12,
+        "best": 0.264466077264408,
+        "mean": 0.04438323076322763,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 13,
+        "best": 0.2936873733761846,
+        "mean": 0.06906690538563126,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 14,
+        "best": 0.2936873733761846,
+        "mean": 0.05732011969917677,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 15,
+        "best": 0.2936873733761846,
+        "mean": 0.057955845854353386,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 16,
+        "best": 0.2936873733761846,
+        "mean": 0.05623846418430802,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 17,
+        "best": 0.2936873733761846,
+        "mean": 0.05370575579799229,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 18,
+        "best": 0.2936873733761846,
+        "mean": 0.06879160942871251,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 19,
+        "best": 0.2936873733761846,
+        "mean": 0.06717827361448411,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 20,
+        "best": 0.2936873733761846,
+        "mean": 0.06808788050105163,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 21,
+        "best": 0.2936873733761846,
+        "mean": 0.08105169955458505,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 22,
+        "best": 0.2936873733761846,
+        "mean": 0.07847730652846324,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 23,
+        "best": 0.2936873733761846,
+        "mean": 0.06948205322381908,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 24,
+        "best": 0.2936873733761846,
+        "mean": 0.07395382120477421,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 25,
+        "best": 0.2936873733761846,
+        "mean": 0.0830910214840738,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 26,
+        "best": 0.2936873733761846,
+        "mean": 0.08131232219426865,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 27,
+        "best": 0.2936873733761846,
+        "mean": 0.07209014023735237,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 28,
+        "best": 0.2936873733761846,
+        "mean": 0.06872496842491058,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 29,
+        "best": 0.2936873733761846,
+        "mean": 0.061929325290332335,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 30,
+        "best": 0.2936873733761846,
+        "mean": 0.07178705005669547,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 31,
+        "best": 0.2936873733761846,
+        "mean": 0.05887155022399678,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 32,
+        "best": 0.2936873733761846,
+        "mean": 0.06388368727605243,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 33,
+        "best": 0.2936873733761846,
+        "mean": 0.07624766394695229,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 34,
+        "best": 0.2936873733761846,
+        "mean": 0.07645134234771704,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 35,
+        "best": 0.2936873733761846,
+        "mean": 0.05868665182825266,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 36,
+        "best": 0.2936873733761846,
+        "mean": 0.06909404971045564,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 37,
+        "best": 0.2936873733761846,
+        "mean": 0.07184131970299769,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 38,
+        "best": 0.2936873733761846,
+        "mean": 0.062232166702428676,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      },
+      {
+        "generation": 39,
+        "best": 0.2936873733761846,
+        "mean": 0.06209947939693394,
+        "species": 1,
+        "hidden": 0,
+        "conns": 27
+      }
+    ],
+    "genome": {
+      "nodes": {
+        "0": "input",
+        "1": "input",
+        "2": "input",
+        "3": "input",
+        "4": "input",
+        "5": "input",
+        "6": "input",
+        "7": "input",
+        "8": "input",
+        "9": "output",
+        "10": "output",
+        "11": "output"
+      },
+      "conns": [
+        [
+          0,
+          9,
+          -0.578,
+          true
+        ],
+        [
+          0,
+          10,
+          0.172,
+          true
+        ],
+        [
+          0,
+          11,
+          0.545,
+          true
+        ],
+        [
+          1,
+          9,
+          -1.321,
+          true
+        ],
+        [
+          1,
+          10,
+          -1.633,
+          true
+        ],
+        [
+          1,
+          11,
+          -0.863,
+          true
+        ],
+        [
+          2,
+          9,
+          1.85,
+          true
+        ],
+        [
+          2,
+          10,
+          -3.912,
+          true
+        ],
+        [
+          2,
+          11,
+          -0.253,
+          true
+        ],
+        [
+          3,
+          9,
+          -1.037,
+          true
+        ],
+        [
+          3,
+          10,
+          0.372,
+          true
+        ],
+        [
+          3,
+          11,
+          -1.523,
+          true
+        ],
+        [
+          4,
+          9,
+          -0.939,
+          true
+        ],
+        [
+          4,
+          10,
+          -1.705,
+          true
+        ],
+        [
+          4,
+          11,
+          1.908,
+          true
+        ],
+        [
+          5,
+          9,
+          -0.779,
+          true
+        ],
+        [
+          5,
+          10,
+          -1.346,
+          true
+        ],
+        [
+          5,
+          11,
+          0.793,
+          true
+        ],
+        [
+          6,
+          9,
+          -0.905,
+          true
+        ],
+        [
+          6,
+          10,
+          1.236,
+          true
+        ],
+        [
+          6,
+          11,
+          0.828,
+          true
+        ],
+        [
+          7,
+          9,
+          1.531,
+          true
+        ],
+        [
+          7,
+          10,
+          -1.37,
+          true
+        ],
+        [
+          7,
+          11,
+          0.545,
+          true
+        ],
+        [
+          8,
+          9,
+          -1.27,
+          true
+        ],
+        [
+          8,
+          10,
+          -2.486,
+          true
+        ],
+        [
+          8,
+          11,
+          2.346,
+          true
+        ]
+      ]
+    }
+  },
+  "fixed_rule_reference": {
+    "note": "best non-collapsed group over the step-1 sweep",
+    "max_M": 0.2,
+    "max_P": 0.96
+  }
+}

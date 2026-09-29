@@ -1,0 +1,122 @@
+[
+ {
+  "regulated": true,
+  "seed": 14,
+  "steps_run": 3427,
+  "extinct": true,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 2,
+  "collectives": 6,
+  "max_generation": 0,
+  "wall": 2.1
+ },
+ {
+  "regulated": true,
+  "seed": 15,
+  "steps_run": 12549,
+  "extinct": true,
+  "blobbed": false,
+  "divisions": 2,
+  "fusions": 3,
+  "collectives": 10,
+  "max_generation": 1,
+  "wall": 8.1
+ },
+ {
+  "regulated": true,
+  "seed": 9,
+  "steps_run": 29228,
+  "extinct": true,
+  "blobbed": false,
+  "divisions": 2,
+  "fusions": 3,
+  "collectives": 12,
+  "max_generation": 1,
+  "wall": 20.2
+ },
+ {
+  "regulated": true,
+  "seed": 6,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 1,
+  "collectives": 5,
+  "max_generation": 0,
+  "wall": 55.6
+ },
+ {
+  "regulated": true,
+  "seed": 7,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 0,
+  "collectives": 2,
+  "max_generation": 0,
+  "wall": 56.5
+ },
+ {
+  "regulated": true,
+  "seed": 4,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 1,
+  "collectives": 5,
+  "max_generation": 0,
+  "wall": 56.6
+ },
+ {
+  "regulated": true,
+  "seed": 1,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 0,
+  "collectives": 6,
+  "max_generation": 0,
+  "wall": 56.6
+ },
+ {
+  "regulated": true,
+  "seed": 5,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 1,
+  "collectives": 5,
+  "max_generation": 0,
+  "wall": 56.9
+ },
+ {
+  "regulated": true,
+  "seed": 12,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 0,
+  "fusions": 2,
+  "collectives": 11,
+  "max_generation": 0,
+  "wall": 56.9
+ },
+ {
+  "regulated": true,
+  "seed": 3,
+  "steps_run": 100000,
+  "extinct": false,
+  "blobbed": false,
+  "divisions": 3,
+  "fusions": 3,
+  "collectives": 9,
+  "max_generation": 1,
+  "wall": 57.7
+ }
+]

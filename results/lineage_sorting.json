@@ -1,0 +1,1751 @@
+[
+  {
+    "arm": "evolving",
+    "seed": 2,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 7,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 1,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 8,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 13,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 9,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 15,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 16,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 14,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 12,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 18,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 20,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 11,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 21,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 24,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 25,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 19,
+    "survived": true,
+    "n_end": 57,
+    "founders_left": 1,
+    "founders_start": 100,
+    "largest_share": 1.0,
+    "simpson": 1.0,
+    "effective_lineages": 1.0,
+    "generations": 1.0,
+    "annularity": 0.78,
+    "births": 321
+  },
+  {
+    "arm": "evolving",
+    "seed": 27,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 5,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 1,
+    "founders_start": 100,
+    "largest_share": 1.0,
+    "simpson": 1.0,
+    "effective_lineages": 1.0,
+    "generations": 1.0,
+    "annularity": 0.71,
+    "births": 2177
+  },
+  {
+    "arm": "evolving",
+    "seed": 29,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 4,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 6,
+    "founders_start": 100,
+    "largest_share": 0.982,
+    "simpson": 0.964,
+    "effective_lineages": 1.04,
+    "generations": 1.0,
+    "annularity": 0.62,
+    "births": 2242
+  },
+  {
+    "arm": "evolving",
+    "seed": 6,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 3,
+    "founders_start": 100,
+    "largest_share": 0.968,
+    "simpson": 0.938,
+    "effective_lineages": 1.07,
+    "generations": 1.0,
+    "annularity": 0.78,
+    "births": 2380
+  },
+  {
+    "arm": "evolving",
+    "seed": 17,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.982,
+    "simpson": 0.964,
+    "effective_lineages": 1.04,
+    "generations": 1.0,
+    "annularity": 0.87,
+    "births": 2201
+  },
+  {
+    "arm": "evolving",
+    "seed": 23,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.76,
+    "simpson": 0.635,
+    "effective_lineages": 1.58,
+    "generations": 1.0,
+    "annularity": 0.89,
+    "births": 2033
+  },
+  {
+    "arm": "evolving",
+    "seed": 32,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 30,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 34,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 33,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 35,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 10,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.638,
+    "simpson": 0.513,
+    "effective_lineages": 1.95,
+    "generations": 1.0,
+    "annularity": 0.9,
+    "births": 2561
+  },
+  {
+    "arm": "evolving",
+    "seed": 40,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 41,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 26,
+    "survived": true,
+    "n_end": 597,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.997,
+    "simpson": 0.993,
+    "effective_lineages": 1.01,
+    "generations": 1.0,
+    "annularity": 0.66,
+    "births": 2387
+  },
+  {
+    "arm": "evolving",
+    "seed": 3,
+    "survived": true,
+    "n_end": 598,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.477,
+    "simpson": 0.435,
+    "effective_lineages": 2.3,
+    "generations": 1.0,
+    "annularity": 0.97,
+    "births": 2719
+  },
+  {
+    "arm": "evolving",
+    "seed": 44,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 22,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.559,
+    "simpson": 0.412,
+    "effective_lineages": 2.43,
+    "generations": 1.0,
+    "annularity": 0.93,
+    "births": 2517
+  },
+  {
+    "arm": "evolving",
+    "seed": 46,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 42,
+    "survived": true,
+    "n_end": 204,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.946,
+    "simpson": 0.898,
+    "effective_lineages": 1.11,
+    "generations": 1.0,
+    "annularity": 0.77,
+    "births": 867
+  },
+  {
+    "arm": "evolving",
+    "seed": 48,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 49,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 50,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 28,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.584,
+    "simpson": 0.514,
+    "effective_lineages": 1.94,
+    "generations": 1.0,
+    "annularity": 0.03,
+    "births": 2824
+  },
+  {
+    "arm": "evolving",
+    "seed": 52,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 53,
+    "survived": true,
+    "n_end": 232,
+    "founders_left": 1,
+    "founders_start": 100,
+    "largest_share": 1.0,
+    "simpson": 1.0,
+    "effective_lineages": 1.0,
+    "generations": 1.0,
+    "annularity": 0.71,
+    "births": 863
+  },
+  {
+    "arm": "evolving",
+    "seed": 54,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 55,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 56,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 57,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 58,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 59,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 60,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 61,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 62,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 63,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 31,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.79,
+    "simpson": 0.661,
+    "effective_lineages": 1.51,
+    "generations": 1.0,
+    "annularity": 0.31,
+    "births": 2586
+  },
+  {
+    "arm": "evolving",
+    "seed": 64,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 47,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.582,
+    "simpson": 0.41,
+    "effective_lineages": 2.44,
+    "generations": 1.0,
+    "annularity": 0.85,
+    "births": 2064
+  },
+  {
+    "arm": "evolving",
+    "seed": 39,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 3,
+    "founders_start": 100,
+    "largest_share": 0.957,
+    "simpson": 0.916,
+    "effective_lineages": 1.09,
+    "generations": 1.0,
+    "annularity": 0.44,
+    "births": 2218
+  },
+  {
+    "arm": "evolving",
+    "seed": 67,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 68,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 70,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 65,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 51,
+    "survived": true,
+    "n_end": 591,
+    "founders_left": 1,
+    "founders_start": 100,
+    "largest_share": 1.0,
+    "simpson": 1.0,
+    "effective_lineages": 1.0,
+    "generations": 1.0,
+    "annularity": 0.54,
+    "births": 1911
+  },
+  {
+    "arm": "evolving",
+    "seed": 71,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 73,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 72,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 76,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 36,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.472,
+    "simpson": 0.433,
+    "effective_lineages": 2.31,
+    "generations": 1.0,
+    "annularity": 0.61,
+    "births": 2600
+  },
+  {
+    "arm": "evolving",
+    "seed": 77,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 78,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 80,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 1,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 37,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 3,
+    "founders_start": 100,
+    "largest_share": 0.387,
+    "simpson": 0.346,
+    "effective_lineages": 2.89,
+    "generations": 1.0,
+    "annularity": 0.9,
+    "births": 2791
+  },
+  {
+    "arm": "evolving",
+    "seed": 79,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 2,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 45,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.452,
+    "simpson": 0.366,
+    "effective_lineages": 2.73,
+    "generations": 1.0,
+    "annularity": 0.78,
+    "births": 2303
+  },
+  {
+    "arm": "evolving",
+    "seed": 43,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.433,
+    "simpson": 0.346,
+    "effective_lineages": 2.89,
+    "generations": 1.0,
+    "annularity": 0.44,
+    "births": 2771
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 7,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 38,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.493,
+    "simpson": 0.347,
+    "effective_lineages": 2.88,
+    "generations": 1.0,
+    "annularity": 0.94,
+    "births": 3116
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 8,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 9,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 11,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 12,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 13,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 14,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 15,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 16,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 10,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 18,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 19,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 20,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 21,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 69,
+    "survived": true,
+    "n_end": 598,
+    "founders_left": 1,
+    "founders_start": 100,
+    "largest_share": 1.0,
+    "simpson": 1.0,
+    "effective_lineages": 1.0,
+    "generations": 1.0,
+    "annularity": 0.45,
+    "births": 2137
+  },
+  {
+    "arm": "evolving",
+    "seed": 66,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.597,
+    "simpson": 0.519,
+    "effective_lineages": 1.93,
+    "generations": 1.0,
+    "annularity": 0.53,
+    "births": 2635
+  },
+  {
+    "arm": "evolving",
+    "seed": 75,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.878,
+    "simpson": 0.786,
+    "effective_lineages": 1.27,
+    "generations": 1.0,
+    "annularity": 0.5,
+    "births": 2441
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 24,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 4,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.97,
+    "simpson": 0.941,
+    "effective_lineages": 1.06,
+    "generations": 1.0,
+    "annularity": 0.74,
+    "births": 2238
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 27,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 5,
+    "survived": true,
+    "n_end": 514,
+    "founders_left": 1,
+    "founders_start": 100,
+    "largest_share": 1.0,
+    "simpson": 1.0,
+    "effective_lineages": 1.0,
+    "generations": 1.0,
+    "annularity": 0.68,
+    "births": 2151
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 26,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 29,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 6,
+    "survived": true,
+    "n_end": 594,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.848,
+    "simpson": 0.736,
+    "effective_lineages": 1.36,
+    "generations": 1.0,
+    "annularity": 0.72,
+    "births": 2465
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 30,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 32,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 33,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 31,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 34,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 35,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 3,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.492,
+    "simpson": 0.442,
+    "effective_lineages": 2.26,
+    "generations": 1.0,
+    "annularity": 0.88,
+    "births": 2744
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 17,
+    "survived": true,
+    "n_end": 593,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.971,
+    "simpson": 0.944,
+    "effective_lineages": 1.06,
+    "generations": 1.0,
+    "annularity": 0.74,
+    "births": 2190
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 40,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 41,
+    "survived": false
+  },
+  {
+    "arm": "evolving",
+    "seed": 74,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 6,
+    "founders_start": 100,
+    "largest_share": 0.285,
+    "simpson": 0.251,
+    "effective_lineages": 3.99,
+    "generations": 1.0,
+    "annularity": 0.54,
+    "births": 3326
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 42,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 22,
+    "survived": true,
+    "n_end": 596,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.342,
+    "simpson": 0.324,
+    "effective_lineages": 3.08,
+    "generations": 1.0,
+    "annularity": 0.94,
+    "births": 2040
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 44,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 46,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 47,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 48,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 49,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 50,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 25,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.647,
+    "simpson": 0.535,
+    "effective_lineages": 1.87,
+    "generations": 1.0,
+    "annularity": 0.91,
+    "births": 2138
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 52,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 53,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 54,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 55,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 56,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 57,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 23,
+    "survived": true,
+    "n_end": 598,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.53,
+    "simpson": 0.355,
+    "effective_lineages": 2.82,
+    "generations": 1.0,
+    "annularity": 0.91,
+    "births": 2989
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 58,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 51,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 59,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 60,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 62,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 61,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 63,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 64,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 43,
+    "survived": true,
+    "n_end": 599,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.978,
+    "simpson": 0.958,
+    "effective_lineages": 1.04,
+    "generations": 1.0,
+    "annularity": 0.44,
+    "births": 2218
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 67,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 39,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 3,
+    "founders_start": 100,
+    "largest_share": 0.992,
+    "simpson": 0.983,
+    "effective_lineages": 1.02,
+    "generations": 1.0,
+    "annularity": 0.15,
+    "births": 2212
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 68,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 69,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 70,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 71,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 65,
+    "survived": true,
+    "n_end": 21,
+    "founders_left": 3,
+    "founders_start": 100,
+    "largest_share": 0.429,
+    "simpson": 0.347,
+    "effective_lineages": 2.88,
+    "generations": 1.0,
+    "annularity": 0.67,
+    "births": 158
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 72,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 73,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 28,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.595,
+    "simpson": 0.506,
+    "effective_lineages": 1.98,
+    "generations": 1.0,
+    "annularity": 0.65,
+    "births": 2802
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 66,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 76,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 77,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 78,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 1,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 80,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 2,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 37,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 3,
+    "founders_start": 100,
+    "largest_share": 0.423,
+    "simpson": 0.346,
+    "effective_lineages": 2.89,
+    "generations": 1.0,
+    "annularity": 0.93,
+    "births": 2753
+  },
+  {
+    "arm": "clonal",
+    "seed": 3,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 4,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 74,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 8,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 7,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 5,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 9,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 10,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 12,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 11,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 79,
+    "survived": true,
+    "n_end": 44,
+    "founders_left": 2,
+    "founders_start": 100,
+    "largest_share": 0.773,
+    "simpson": 0.649,
+    "effective_lineages": 1.54,
+    "generations": 1.0,
+    "annularity": 0.8,
+    "births": 312
+  },
+  {
+    "arm": "clonal",
+    "seed": 13,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 14,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 15,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 18,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 19,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 21,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 23,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 36,
+    "survived": true,
+    "n_end": 586,
+    "founders_left": 4,
+    "founders_start": 100,
+    "largest_share": 0.396,
+    "simpson": 0.344,
+    "effective_lineages": 2.91,
+    "generations": 1.0,
+    "annularity": 0.79,
+    "births": 2909
+  },
+  {
+    "arm": "clonal",
+    "seed": 20,
+    "survived": true,
+    "n_end": 26,
+    "founders_left": 8,
+    "founders_start": 100,
+    "largest_share": 0.231,
+    "simpson": 0.151,
+    "effective_lineages": 6.63,
+    "generations": 1.0,
+    "annularity": 0.52,
+    "births": 202
+  },
+  {
+    "arm": "clonal",
+    "seed": 25,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 24,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 38,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 5,
+    "founders_start": 100,
+    "largest_share": 0.463,
+    "simpson": 0.377,
+    "effective_lineages": 2.65,
+    "generations": 1.0,
+    "annularity": 0.95,
+    "births": 2976
+  },
+  {
+    "arm": "clonal",
+    "seed": 26,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 28,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 30,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 29,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 31,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 32,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 33,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 34,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 36,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 38,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 39,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 40,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 17,
+    "survived": true,
+    "n_end": 163,
+    "founders_left": 54,
+    "founders_start": 100,
+    "largest_share": 0.067,
+    "simpson": 0.027,
+    "effective_lineages": 36.95,
+    "generations": 1.0,
+    "annularity": 0.83,
+    "births": 1415
+  },
+  {
+    "arm": "clonal",
+    "seed": 41,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 42,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 37,
+    "survived": true,
+    "n_end": 30,
+    "founders_left": 10,
+    "founders_start": 100,
+    "largest_share": 0.267,
+    "simpson": 0.147,
+    "effective_lineages": 6.82,
+    "generations": 1.0,
+    "annularity": 0.73,
+    "births": 460
+  },
+  {
+    "arm": "clonal",
+    "seed": 35,
+    "survived": true,
+    "n_end": 45,
+    "founders_left": 13,
+    "founders_start": 100,
+    "largest_share": 0.133,
+    "simpson": 0.098,
+    "effective_lineages": 10.18,
+    "generations": 1.0,
+    "annularity": 0.79,
+    "births": 684
+  },
+  {
+    "arm": "clonal",
+    "seed": 43,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 27,
+    "survived": true,
+    "n_end": 70,
+    "founders_left": 30,
+    "founders_start": 100,
+    "largest_share": 0.086,
+    "simpson": 0.044,
+    "effective_lineages": 22.48,
+    "generations": 1.0,
+    "annularity": 0.7,
+    "births": 673
+  },
+  {
+    "arm": "clonal",
+    "seed": 46,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 45,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 47,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 48,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 50,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 51,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 53,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 52,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 54,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 57,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 49,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 59,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 58,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 61,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 62,
+    "survived": true,
+    "n_end": 21,
+    "founders_left": 6,
+    "founders_start": 100,
+    "largest_share": 0.238,
+    "simpson": 0.202,
+    "effective_lineages": 4.96,
+    "generations": 1.0,
+    "annularity": 0.84,
+    "births": 255
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 45,
+    "survived": true,
+    "n_end": 596,
+    "founders_left": 9,
+    "founders_start": 100,
+    "largest_share": 0.295,
+    "simpson": 0.196,
+    "effective_lineages": 5.09,
+    "generations": 1.0,
+    "annularity": 0.53,
+    "births": 3107
+  },
+  {
+    "arm": "clonal",
+    "seed": 63,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 64,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 66,
+    "survived": false
+  },
+  {
+    "arm": "no-mutation",
+    "seed": 75,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 68,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 67,
+    "survived": true,
+    "n_end": 48,
+    "founders_left": 21,
+    "founders_start": 100,
+    "largest_share": 0.104,
+    "simpson": 0.057,
+    "effective_lineages": 17.45,
+    "generations": 1.0,
+    "annularity": 0.77,
+    "births": 602
+  },
+  {
+    "arm": "clonal",
+    "seed": 70,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 71,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 72,
+    "survived": true,
+    "n_end": 47,
+    "founders_left": 21,
+    "founders_start": 100,
+    "largest_share": 0.149,
+    "simpson": 0.072,
+    "effective_lineages": 13.89,
+    "generations": 1.0,
+    "annularity": 0.72,
+    "births": 640
+  },
+  {
+    "arm": "clonal",
+    "seed": 73,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 74,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 75,
+    "survived": true,
+    "n_end": 51,
+    "founders_left": 12,
+    "founders_start": 100,
+    "largest_share": 0.275,
+    "simpson": 0.129,
+    "effective_lineages": 7.76,
+    "generations": 1.0,
+    "annularity": 0.65,
+    "births": 486
+  },
+  {
+    "arm": "clonal",
+    "seed": 76,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 77,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 78,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 79,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 80,
+    "survived": false
+  },
+  {
+    "arm": "clonal",
+    "seed": 6,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 17,
+    "founders_start": 100,
+    "largest_share": 0.113,
+    "simpson": 0.071,
+    "effective_lineages": 14.08,
+    "generations": 1.0,
+    "annularity": 0.57,
+    "births": 3777
+  },
+  {
+    "arm": "clonal",
+    "seed": 44,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 19,
+    "founders_start": 100,
+    "largest_share": 0.13,
+    "simpson": 0.071,
+    "effective_lineages": 14.16,
+    "generations": 1.0,
+    "annularity": 0.68,
+    "births": 3370
+  },
+  {
+    "arm": "clonal",
+    "seed": 16,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 57,
+    "founders_start": 100,
+    "largest_share": 0.048,
+    "simpson": 0.025,
+    "effective_lineages": 40.6,
+    "generations": 1.0,
+    "annularity": 0.47,
+    "births": 4493
+  },
+  {
+    "arm": "clonal",
+    "seed": 22,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 61,
+    "founders_start": 100,
+    "largest_share": 0.042,
+    "simpson": 0.021,
+    "effective_lineages": 47.81,
+    "generations": 1.0,
+    "annularity": 0.45,
+    "births": 4680
+  },
+  {
+    "arm": "clonal",
+    "seed": 60,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 34,
+    "founders_start": 100,
+    "largest_share": 0.073,
+    "simpson": 0.039,
+    "effective_lineages": 25.94,
+    "generations": 1.0,
+    "annularity": 0.47,
+    "births": 4319
+  },
+  {
+    "arm": "clonal",
+    "seed": 56,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 52,
+    "founders_start": 100,
+    "largest_share": 0.043,
+    "simpson": 0.023,
+    "effective_lineages": 43.11,
+    "generations": 1.0,
+    "annularity": 0.36,
+    "births": 4467
+  },
+  {
+    "arm": "clonal",
+    "seed": 55,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 65,
+    "founders_start": 100,
+    "largest_share": 0.033,
+    "simpson": 0.019,
+    "effective_lineages": 51.86,
+    "generations": 1.0,
+    "annularity": 0.34,
+    "births": 4617
+  },
+  {
+    "arm": "clonal",
+    "seed": 65,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 40,
+    "founders_start": 100,
+    "largest_share": 0.06,
+    "simpson": 0.031,
+    "effective_lineages": 32.18,
+    "generations": 1.0,
+    "annularity": 0.45,
+    "births": 4436
+  },
+  {
+    "arm": "clonal",
+    "seed": 69,
+    "survived": true,
+    "n_end": 600,
+    "founders_left": 41,
+    "founders_start": 100,
+    "largest_share": 0.057,
+    "simpson": 0.03,
+    "effective_lineages": 33.05,
+    "generations": 1.0,
+    "annularity": 0.4,
+    "births": 4367
+  }
+]

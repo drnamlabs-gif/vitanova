@@ -1,0 +1,34 @@
+{
+  "linear-tanh controller": [
+    {
+      "shell": "0.0-0.2",
+      "tangential": 0.584,
+      "radial": 0.681,
+      "speed": 1.046
+    },
+    {
+      "shell": "0.2-0.4",
+      "tangential": 0.493,
+      "radial": 0.756,
+      "speed": 1.086
+    },
+    {
+      "shell": "0.4-0.6",
+      "tangential": 0.455,
+      "radial": 0.766,
+      "speed": 1.214
+    },
+    {
+      "shell": "0.6-0.8",
+      "tangential": 0.598,
+      "radial": 0.666,
+      "speed": 1.16
+    },
+    {
+      "shell": "0.8-1.0",
+      "tangential": 0.636,
+      "radial": 0.616,
+      "speed": 1.229
+    }
+  ]
+}

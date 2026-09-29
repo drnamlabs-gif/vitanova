@@ -1,0 +1,332 @@
+[
+  {
+    "seed": 19,
+    "share": 1.0,
+    "drift": 0.53,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.243,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.312,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 5,
+    "share": 1.0,
+    "drift": 0.38,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.074,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.109,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 4,
+    "share": 0.98,
+    "drift": 0.25,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 17,
+    "share": 0.98,
+    "drift": 0.51,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.412,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.216,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 6,
+    "share": 0.97,
+    "drift": 0.33,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.12,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 10,
+    "share": 0.64,
+    "drift": 0.45,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.38,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.43,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 26,
+    "share": 1.0,
+    "drift": 0.34,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.091,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 22,
+    "share": 0.56,
+    "drift": 0.37,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.249,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 42,
+    "share": 0.95,
+    "drift": 0.59,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 28,
+    "share": 0.58,
+    "drift": 0.3,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.14,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 31,
+    "share": 0.79,
+    "drift": 0.46,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.0,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 39,
+    "share": 0.96,
+    "drift": 0.3,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.101,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.191,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 53,
+    "share": 1.0,
+    "drift": 0.47,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.127,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.204,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 43,
+    "share": 0.43,
+    "drift": 0.4,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.086,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.046,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 51,
+    "share": 1.0,
+    "drift": 0.44,
+    "ancestor": {
+      "survived": 0,
+      "annularity": 0.073,
+      "n_max": 100.0
+    },
+    "descendant": {
+      "survived": 0,
+      "annularity": 0.125,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 45,
+    "share": 0.45,
+    "drift": 0.28,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.555,
+      "n_max": 378.0
+    },
+    "descendant": {
+      "survived": 3,
+      "annularity": 0.591,
+      "n_max": 100.0
+    }
+  },
+  {
+    "seed": 47,
+    "share": 0.58,
+    "drift": 0.43,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.586,
+      "n_max": 123.3
+    },
+    "descendant": {
+      "survived": 3,
+      "annularity": 0.401,
+      "n_max": 600.0
+    }
+  },
+  {
+    "seed": 38,
+    "share": 0.49,
+    "drift": 0.26,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.579,
+      "n_max": 600.0
+    },
+    "descendant": {
+      "survived": 2,
+      "annularity": 0.454,
+      "n_max": 433.3
+    }
+  },
+  {
+    "seed": 3,
+    "share": 0.48,
+    "drift": 0.38,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.409,
+      "n_max": 600.0
+    },
+    "descendant": {
+      "survived": 3,
+      "annularity": 0.469,
+      "n_max": 600.0
+    }
+  },
+  {
+    "seed": 23,
+    "share": 0.76,
+    "drift": 0.28,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.413,
+      "n_max": 600.0
+    },
+    "descendant": {
+      "survived": 3,
+      "annularity": 0.319,
+      "n_max": 600.0
+    }
+  },
+  {
+    "seed": 36,
+    "share": 0.47,
+    "drift": 0.35,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.436,
+      "n_max": 600.0
+    },
+    "descendant": {
+      "survived": 3,
+      "annularity": 0.353,
+      "n_max": 600.0
+    }
+  },
+  {
+    "seed": 37,
+    "share": 0.39,
+    "drift": 0.32,
+    "ancestor": {
+      "survived": 3,
+      "annularity": 0.437,
+      "n_max": 600.0
+    },
+    "descendant": {
+      "survived": 3,
+      "annularity": 0.382,
+      "n_max": 600.0
+    }
+  }
+]

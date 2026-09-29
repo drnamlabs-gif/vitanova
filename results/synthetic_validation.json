@@ -1,0 +1,22 @@
+{
+  "uniform disk": {
+    "annularity": 0.14,
+    "sd": 0.15,
+    "hollowness": 0.28
+  },
+  "thin ring": {
+    "annularity": 0.04,
+    "sd": 0.08,
+    "hollowness": 0.9
+  },
+  "ring + core": {
+    "annularity": 0.85,
+    "sd": 0.06,
+    "hollowness": 0.0
+  },
+  "arc": {
+    "annularity": 0.06,
+    "sd": 0.1,
+    "hollowness": 0.03
+  }
+}

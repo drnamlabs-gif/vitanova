@@ -1,0 +1,368 @@
+%% Artificial Life (MIT Press) journal submission
+%% MUST COMPILE WITH XELATEX OR LUALATEX
+
+\documentclass{artificial-life}
+
+\usepackage[style=apa,natbib=true]{biblatex}
+\addbibresource{Le.bib}
+
+\title{A collective-level Darwinian population
+without collective-level selection}
+
+\auth{
+    Nam H. Le \affil{1}
+}
+
+\corresponding{Nam H. Le}{namlehai90@gmail.com}
+
+\affiliations{
+    \item Independent researcher
+}
+
+\abs{
+Evolutionary transitions in individuality gave life its layered structure: free
+cells became the parts of organisms, solitary insects the parts of colonies. How
+a new level of individual first arises is difficult to model, because the
+standard accounts of group and kin selection begin by assuming a group and a
+criterion that evaluates it. Artificial life can avoid that circularity by
+writing no fitness function at all, but the systems built this way have
+generally produced a replicating pattern rather than a population of
+higher-level entities standing in relations of descent. Here I report such a population in VitaNova, a
+minimal model derived from flocking rules and an energetic ecology, in which it
+appears without being specified. Collectives form, grow and divide,
+and the divisions compound: across sixteen independent runs, several hundred
+collectives arose, a third of them divided, and the deepest lineage ran nineteen
+collective generations. Experimental results show that this population meets all
+three requirements for a Darwinian population at the collective level.
+Collectives reproduce; daughters resemble their parents in size across the
+lineage, with a parent--offspring regression slope near two thirds that survives
+controls for replicate and for temporal phase; and reproductive success varies
+sharply, with three fifths of collectives leaving no offspring at all. Nothing
+in the model refers to a collective, so none of this was imposed. Ablations
+locate what the population depends upon: an ecology in which grouping pays, and
+unbounded growth, since a size ceiling that stabilises the collectives'
+internal structure collapses the deepest lineage to a single generation. It does
+not depend on evolution, on relatedness, on a division of labour, or on fitness
+decoupling. What is absent is selection acting upon the collectives themselves,
+because the collective property that is heritable and responds to selection is
+internal structure, while the rate at which collectives divide does not respond
+at all. The system reaches the starting line of a transition, which theory holds
+to be the hard part, and stops there. The measurements show where the next
+barrier lies.
+}
+
+\keywords{evolutionary transitions in individuality, collective reproduction,
+Darwinian populations, self-organisation, collective motion, agent-based model}
+
+\begin{document}
+
+% Don't Touch ! %%%%%%
+\coverpage           %
+\linenumbers         %
+\doublespacing       %
+%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}
+
+Evolution does not only adapt individuals to their environments. It also makes
+new kinds of individual out of old ones. Free-living cells became the parts of
+multicellular organisms, solitary insects became the parts of colonies, and
+separate replicators became the parts of chromosomes. These events, the
+evolutionary transitions in individuality
+\citep{smith1995major,west2015major}, are the reason biological complexity is
+layered rather than flat.
+
+Modelling them runs into a structural difficulty. Selection acts on entities
+that already reproduce differentially, so any account of how a new reproducing
+entity comes into being is liable to assume what it should explain. The standard
+formal treatments begin by specifying a fitness at the collective level, or a
+relatedness among a group's members, and then ask when cooperation is favoured
+\citep{okasha2005multilevel,hamilton1964genetical}. Those are the right tools
+for asking how an existing group behaves, and the wrong ones for asking where
+the group came from.
+
+Artificial life has a standard way around the circularity, which is to write no
+fitness function at all and let differential reproduction fall out of an ecology
+\citep{ray1991approach,yaeger1994polyworld,channon2001geb}. What the field has
+mostly produced under that stance, however, is \emph{pattern replication}:
+configurations that reproduce their own form
+\citep{langton1984self,sayama1999evoloop,chan2020lenia}. A replicating pattern
+is not a Darwinian population. For that one needs many higher-level entities,
+standing in relations of descent, differing in what they transmit and in how
+many descendants they leave \citep{godfreysmith2009}.
+
+The system studied here, VitaNova, was introduced in an earlier paper
+\citep{le2025vitanova}, which described its collectives in simple terms: they
+form, acquire a ring-like internal structure, and sometimes divide. Nothing
+about collective-level descent or heredity was measured there. This article
+supplies those measurements.
+
+Here I report that the population is real. Across sixteen independent runs the
+divisions compound into lineages up to nineteen collective generations deep, a
+collective-level trait is transmitted across those lineages, and reproductive
+success varies sharply among collectives. Nothing in the model refers to a
+collective, and no collective-level selection is imposed or possible.
+
+The article then asks what the population depends upon, by switching components
+off, and what it still lacks. Together these locate the system: at the starting
+line of a transition, which theory holds to be the hard part, with the next
+barrier visible.
+
+\section{Background}
+\label{sec:related}
+
+\subsection{What a transition is held to require}
+
+\citet{godfreysmith2009} sets out three requirements for a Darwinian
+population: its members reproduce, offspring resemble their parents, and that
+resemblance covaries with reproductive success. Applied one level up, these
+become three questions. Do collectives reproduce? Is a collective-level property
+transmitted from a collective to its offspring collectives? Do collectives
+differ in how many offspring they leave? The requirements are modest, and that
+is their value: they are stated so as to be checkable.
+
+Around them sits a body of theory concerned with mechanisms that are held to
+enable a transition or to mark one. \citet{roze2001mutation} treat a single-cell
+bottleneck as the device that makes collective-level heredity possible, by
+purging the within-collective variation that would otherwise decouple a
+collective from its offspring. \citet{michod2003reorganization} propose fitness
+decoupling, the collective's fitness ceasing to be the average of its parts', as
+the signature that a transition has occurred; \citet{bourrat2022tradeoff} reply
+that apparent decoupling is an artefact of a shifting reference environment and
+propose tradeoff breaking in its place. \citet{queller1997cooperators}
+distinguishes fraternal transitions among relatives, where relatedness aligns
+interests, from egalitarian transitions among unlike partners, and
+\citet{tarnita2013evolution} draw the related distinction between collectives
+that stay together after dividing and collectives that come together from
+dispersed parts. \citet{grosberg2007evolution} review how these considerations
+play out in the origin of multicellularity, and \citet{boomsma2009lifetime}
+argues that lifetime monogamy, and hence high relatedness, is what made
+eusociality possible.
+
+Two features of this literature bear on what follows. The first is that its
+central quantities are usually assessed qualitatively: a system is described,
+the reader is invited to agree that its collectives reproduce, and the criteria
+are satisfied by narration rather than by measurement. The second is that
+almost all of it concerns what happens to a collective-level population once one
+exists. The question of how such a population arises in the first place, before
+anything can select upon it, is precisely the question the circularity makes
+hard to pose.
+
+\subsection{The circularity, and implicit fitness}
+
+The circularity is avoided in artificial life by refusing to state an objective,
+and the practice is long established. In Tierra \citep{ray1991approach},
+self-replicating programs compete for processor time and for memory, and their
+differential replication is a consequence of what they do rather than of a score
+assigned to them. In Polyworld \citep{yaeger1994polyworld}, agents carrying
+evolvable neural controllers must find food and mate in order to leave
+descendants, and nothing in the simulator evaluates how well they are doing.
+\citet{channon2001geb} makes the argument explicit, that open-ended evolution
+requires exactly this refusal, and builds Geb upon it.
+
+The stance has two consequences, and both matter here. Because no criterion is
+written down, no property of the system can have been produced by one, so a
+collective that appears is not an artefact of a specification. That is the
+whole point. The cost is that nothing can be steered: one cannot select for a
+collective-level property, or arrange a bottleneck, or impose a life cycle. It
+is for this reason that implicit-fitness systems are seldom put forward as
+models of transitions, and for the same reason that a collective-level Darwinian
+population, should one appear in such a system, is worth measuring carefully.
+
+\subsection{What artificial and experimental systems have shown}
+
+Table~\ref{tab:systems} sets the main systems, VitaNova among them, against
+\citet{godfreysmith2009}'s three requirements, and the pattern in the table is
+that collective reproduction and collective heredity seldom arise together
+unless one of them has been supplied.
+
+Self-reproducing structures in cellular automata, from \citet{langton1984self}
+through the evoloop of \citet{sayama1999evoloop} to the continuous patterns of
+\citet{chan2020lenia}, replicate a configuration beautifully and without any
+population of heritable variants competing on fitness. The components have no
+heredity of their own and nothing selects among them, so there is no lower level
+from which a higher level might arise. The digital evolution platforms have the
+opposite profile: Tierra \citep{ray1991approach} and Avida
+\citep{ofria2004avida} have genuine heredity and genuine selection, at one level
+only, with no collective that reproduces as a unit. DISHTINY
+\citep{moreno2019dishtiny} was designed to host hierarchical individuality and
+does so, by providing explicit group-level machinery, which answers a question
+about sufficiency rather than about origin.
+
+Experimental evolution has made the most concrete progress on transitions
+themselves. The snowflake yeast of \citet{ratcliff2012experimental} evolve
+simple multicellularity within weeks under settling selection, and
+\citet{hammerschmidt2014life} evolve a life cycle in bacterial mats.
+\citet{black2020scaffolding} state the underlying logic most clearly: an
+externally imposed ecological scaffold is \emph{sufficient} to confer Darwinian
+properties on collectives that do not possess them intrinsically. The common
+feature of these designs, and their limit for the present question, is that
+selection at the collective level is supplied by the experimenter. They
+establish what collective-level selection can build. They do not establish how a
+collective-level Darwinian population comes to exist before anything selects
+upon it.
+
+\begin{table}[tp]
+\centering
+\small
+\begin{tabular}{llll}
+\hline
+System & Collective & Collective & Selection at the \\
+       & reproduces & heredity & collective level \\
+\hline
+Self-reproducing CA \citep{langton1984self} & yes & no & no \\
+Evoloop \citep{sayama1999evoloop} & yes & partial & implicit \\
+Lenia \citep{chan2020lenia} & yes & no & no \\
+Tierra, Avida \citep{ray1991approach,ofria2004avida} & no & n/a & no \\
+Polyworld \citep{yaeger1994polyworld} & no & n/a & no \\
+DISHTINY \citep{moreno2019dishtiny} & yes & yes & designed in \\
+Scaffolded collectives \citep{black2020scaffolding} & imposed & yes & imposed \\
+Snowflake yeast \citep{ratcliff2012experimental} & yes & yes & imposed \\
+VitaNova (this article) & \textbf{yes} & \textbf{yes} & \textbf{none, and none possible} \\
+\hline
+\end{tabular}
+\caption{Systems cited in discussions of artificial transitions, set against the
+three requirements of \citet{godfreysmith2009}. ``Imposed'' marks a property
+supplied by the experimental protocol rather than arising from the system's own
+dynamics. The final row is the present article; the paper that introduced
+VitaNova \citep{le2025vitanova} reported neither collective heredity nor
+collective descent.}
+\label{tab:systems}
+\end{table}
+
+\subsection{What is not measured}
+
+Two gaps follow from the above, and they compound each other.
+
+The first is that collective-level descent is rarely followed. A system is
+reported to exhibit group reproduction on the strength of division events, but a
+division event and a lineage are different things: a hundred divisions that
+never compound describe a very different system from a hundred that reach
+nineteen generations of descent, and only the second is a population on which
+selection could act. Reporting the depth of collective lineages, rather than the
+count of divisions, is cheap and rarely done.
+
+The second is that collective-level heredity is rarely measured against the
+controls it needs. A correlation between a parent collective and its offspring
+is the expected consequence of a shared temporal trend, or of some runs simply
+producing larger collectives than others, and separating transmission from
+either requires centring within replicate and within phase and testing against a
+permutation null that preserves that structure. The measurement tradition in
+this field, represented by \citet{dolson2019modes}, tracks novelty and
+complexity rather than descent and transmission, so the apparatus is not to
+hand.
+
+This article supplies both for VitaNova: the depth of its collective lineages,
+and the transmission of a collective-level trait across them under a ladder of
+fixed-effects controls. Neither quantity was reported when the system was
+introduced.
+
+
+\section{VitaNova}
+\label{sec:model}
+
+\subsection{Agents and their controllers}
+
+The world is an $800 \times 600$ px arena with reflecting boundaries, holding
+$100$ agents and $10$ predators at initialisation (Figure~\ref{fig:system}a).
+Each agent perceives others within a radius $R = 25$ px, and the separation,
+alignment and cohesion radii of the underlying flocking rules
+\citep{reynolds1987flocks} are set to the same value
+(Figure~\ref{fig:system}b). That the four radii coincide is a property of the
+original implementation rather than a design choice, and
+Section~\ref{sec:conditions} shows it has consequences.
+
+Each agent carries a genome of $170$ real-valued weights specifying a
+feed-forward network with eleven inputs, ten hidden units and six outputs. The
+inputs are the relative positions of three perceived neighbours, the relative
+position of the nearest perceived predator, the agent's own velocity, and a
+local density estimate. The outputs are not motions but \emph{tendencies}: four
+gains in $[-1,1]$, produced by a $\tanh$, that weight the separation, alignment,
+cohesion and predator-avoidance terms, together with two further outputs that
+set a worker or soldier state. Writing $\tau_s, \tau_a, \tau_c, \tau_p$ for the
+four gains, $\mathbf{s}, \mathbf{a}, \mathbf{c}$ for the three flocking vectors
+and $\mathbf{q}$ for the displacement to the nearest perceived predator, the
+velocity update is
+\begin{equation}\label{eqn:update}
+\mathbf{v} \;\leftarrow\; \sigma \cdot \widehat{\left(
+\mathbf{v} + \tau_s \mathbf{s} + \tau_a \mathbf{a} + \tau_c \mathbf{c}
+- \max(\tau_p, 0)\,\frac{\mathbf{q}}{\|\mathbf{q}\|^{2}}\right)},
+\end{equation}
+with $\sigma$ a fixed speed and the hat denoting normalisation. The three
+flocking gains are signed, so an agent may invert any of them; the avoidance
+gain is rectified, so an agent cannot be attracted to a predator. An agent's
+controller therefore chooses a style of flocking rather than a trajectory, and
+what a collective looks like is a consequence of the styles its members happen
+to have.
+
+Two details are inherited from the original implementation and preserved rather
+than corrected: alignment and cohesion are computed including the focal agent
+while separation excludes it, and the three neighbours entering the input vector
+are taken in array index order rather than by distance.
+
+\subsection{Energy, reproduction, and the absence of a fitness function}
+\label{sec:energy}
+
+An agent gains $1.1$ energy per step and pays $1.0$. On top of this it receives
+$+0.2$ when between two and nineteen other agents lie within $15$ px, and $-0.2$
+at twenty or more. Reproduction is asexual and occurs when energy exceeds $200$;
+it costs $100$, places the offspring nearby, and mutates its genome with rate
+and standard deviation $0.1$. Initial energy is $50$. Death is by age alone, at
+$1000$ steps, so energy gates reproduction but never kills.
+
+Following the implicit-fitness stance of \citet{ray1991approach} and
+\citet{yaeger1994polyworld}, there is no fitness function anywhere in VitaNova,
+no term in any agent's accounting that refers to a collective, and no rule that
+evaluates one. Differential reproduction arises because agents in company gain
+energy faster than agents alone, which is a property of the ecology rather than
+a criterion imposed upon it. This is what makes the collectives reported below
+worth measuring: since no group criterion is written down, they cannot be an
+artefact of one.
+
+The constants above have a consequence that is easier to see by multiplying them
+out than by running the model, and Section~\ref{sec:conditions} turns on it. An
+agent that never receives the grouping subsidy accumulates at most
+$50 + 0.1 \times 1000 = 150$ energy in an entire lifetime, against a
+reproduction threshold of $200$. It cannot reproduce under any behaviour, for
+any seed. Grouping in VitaNova is therefore not an advantage that agents
+discover; it is an arithmetic precondition for reproducing at all.
+
+Agents also switch between worker and soldier states according to the two
+remaining network outputs, with a small difference in energy accounting and a
+predator rule that responds to groups of soldiers. Ablating this caste machinery
+makes no difference to anything reported here, and I leave its details to a
+separate report.
+
+\subsection{Implementation and validation}
+
+All experiments use a vectorised reimplementation of the original, which is what
+makes the ablations affordable: it runs $90$ to $110$ times faster. It is not
+trajectory-exact, because the original updates agents in sequence, so that an
+agent sees neighbours that have already moved within the step, while the port
+updates every agent from a single snapshot. Validation is therefore
+distributional, and on that basis the two agree. Over $78$ seeds the population
+growth-rate ratio is $1.04$, a collective divided in $32\%$ of runs against
+$30\%$, and the size of the dividing collective does not differ
+(Mann--Whitney $p = 0.35$).
+
+\begin{figure}[tp]
+    \centering
+    \includegraphics[width=\textwidth]{Le.fig01.pdf}
+    \caption{VitaNova, and one run of it. (a) The $800 \times 600$ px arena at
+    step 900 of one run, holding 73 agents and 10 predators. Agents are coloured
+    by state, workers in blue and soldiers in amber; predators are dark red
+    triangles; short grey arrows are velocities. This colour scheme is used for
+    agents throughout. (b) The world of one agent, centred on the agent with the
+    most neighbours, which is ringed. The outer dashed circle is the radius
+    $R = 25$ px at which perception, separation, alignment and cohesion all act;
+    the inner dotted circle is the $15$ px range over which the energy subsidy
+    counts neighbours. (c--f) The largest collective at four times, each drawn
+    in its own frame with the collective on a shaded disc; in (f) the two
+    products of a division are shaded separately. (g) Annularity, the measure of
+    internal structure defined in Section~\ref{sec:measure} (left axis, solid),
+    and the size of the largest collective (right axis, dashed, logarithmic),
+    over the whole run.}
+    \label{fig:system}
+\end{figure}
+
+\end{document}

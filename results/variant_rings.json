@@ -1,0 +1,386 @@
+[
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 4,
+  "peak_A": 0.0,
+  "largest": 18,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 3,
+  "peak_A": 0.922,
+  "largest": 25,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 13,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 1,
+  "peak_A": 0.776,
+  "largest": 22,
+  "divided": false,
+  "n_end": 21
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 3,
+  "peak_A": 0.963,
+  "largest": 720,
+  "divided": true,
+  "n_end": 711
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 1,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 12,
+  "peak_A": 0.918,
+  "largest": 219,
+  "divided": true,
+  "n_end": 599
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 15,
+  "peak_A": 0.96,
+  "largest": 980,
+  "divided": true,
+  "n_end": 776
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 7,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 15,
+  "peak_A": 0.939,
+  "largest": 376,
+  "divided": true,
+  "n_end": 600
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 13,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 13,
+  "peak_A": 0.948,
+  "largest": 514,
+  "divided": true,
+  "n_end": 600
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 12,
+  "peak_A": 0.697,
+  "largest": 33,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 14,
+  "peak_A": 0.0,
+  "largest": 10,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 15,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 4,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 3,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 14,
+  "peak_A": 0.947,
+  "largest": 486,
+  "divided": true,
+  "n_end": 595
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 13,
+  "peak_A": 0.0,
+  "largest": 10,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Fast (FFN, castes)",
+  "seed": 7,
+  "peak_A": 0.96,
+  "largest": 324,
+  "divided": true,
+  "n_end": 600
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 4,
+  "peak_A": 0.687,
+  "largest": 600,
+  "divided": false,
+  "n_end": 600
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 1,
+  "peak_A": 0.98,
+  "largest": 34,
+  "divided": true,
+  "n_end": 37
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 3,
+  "peak_A": 0.967,
+  "largest": 32,
+  "divided": false,
+  "n_end": 29
+ },
+ {
+  "name": "Linear (no hidden layer)",
+  "seed": 3,
+  "peak_A": 0.966,
+  "largest": 598,
+  "divided": true,
+  "n_end": 598
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 4,
+  "peak_A": 0.948,
+  "largest": 40,
+  "divided": true,
+  "n_end": 27
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 7,
+  "peak_A": 0.948,
+  "largest": 33,
+  "divided": false,
+  "n_end": 25
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 7,
+  "peak_A": 0.909,
+  "largest": 865,
+  "divided": true,
+  "n_end": 888
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 13,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 12,
+  "peak_A": 0.953,
+  "largest": 57,
+  "divided": true,
+  "n_end": 29
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 14,
+  "peak_A": 0.928,
+  "largest": 41,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 1,
+  "peak_A": 0.545,
+  "largest": 21,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 4,
+  "peak_A": 0.152,
+  "largest": 18,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 3,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "Crowded (size ceiling)",
+  "seed": 15,
+  "peak_A": 0.94,
+  "largest": 44,
+  "divided": true,
+  "n_end": 49
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 7,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 12,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 13,
+  "peak_A": 0.348,
+  "largest": 15,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 14,
+  "peak_A": 0.0,
+  "largest": 15,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "No ecology (subsidy off)",
+  "seed": 15,
+  "peak_A": 0.613,
+  "largest": 15,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 1,
+  "peak_A": 0.96,
+  "largest": 925,
+  "divided": true,
+  "n_end": 940
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 4,
+  "peak_A": 0.973,
+  "largest": 947,
+  "divided": true,
+  "n_end": 924
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 1,
+  "peak_A": 0.956,
+  "largest": 599,
+  "divided": true,
+  "n_end": 598
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 7,
+  "peak_A": 0.939,
+  "largest": 594,
+  "divided": true,
+  "n_end": 597
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 15,
+  "peak_A": 0.693,
+  "largest": 398,
+  "divided": true,
+  "n_end": 571
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 12,
+  "peak_A": 0.883,
+  "largest": 271,
+  "divided": true,
+  "n_end": 600
+ },
+ {
+  "name": "Locked (role fixed at birth)",
+  "seed": 14,
+  "peak_A": 0.956,
+  "largest": 558,
+  "divided": true,
+  "n_end": 600
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 14,
+  "peak_A": 0.893,
+  "largest": 761,
+  "divided": true,
+  "n_end": 749
+ },
+ {
+  "name": "NoCaste (FFN, no castes)",
+  "seed": 12,
+  "peak_A": 0.976,
+  "largest": 809,
+  "divided": true,
+  "n_end": 872
+ }
+]

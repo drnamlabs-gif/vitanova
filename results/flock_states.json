@@ -1,0 +1,29 @@
+{
+  "disordered swarm": {
+    "w_ali": 0.5,
+    "w_coh": 0.5,
+    "P": 0.15563931927787686,
+    "M": 0.1479756736812481,
+    "nnd": 12.582269319814802,
+    "group": 93.85,
+    "note": "no alignment"
+  },
+  "most rotation found": {
+    "w_ali": 2.0,
+    "w_coh": 0.5,
+    "P": 0.8634467528636303,
+    "M": 0.20070902823787573,
+    "nnd": 15.905821129446817,
+    "group": 54.36071428571428,
+    "note": "most rotation found"
+  },
+  "polarised school": {
+    "w_ali": 2.0,
+    "w_coh": 1.0,
+    "P": 0.9604597426301085,
+    "M": 0.05118814982395731,
+    "nnd": 8.372714685514282,
+    "group": 111.97142857142856,
+    "note": "one cohesive polarised group"
+  }
+}

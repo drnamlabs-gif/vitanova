@@ -1,0 +1,770 @@
+[
+ {
+  "genotype": 0,
+  "world": 3,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 5,
+  "peak_A": 0.264,
+  "largest": 16,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 14,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 1,
+  "peak_A": 0.352,
+  "largest": 37,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 2,
+  "peak_A": 0.394,
+  "largest": 23,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 4,
+  "peak_A": 0.345,
+  "largest": 27,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 6,
+  "peak_A": 0.231,
+  "largest": 26,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 1,
+  "peak_A": 0.65,
+  "largest": 90,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 0,
+  "peak_A": 0.499,
+  "largest": 58,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 2,
+  "peak_A": 0.45,
+  "largest": 85,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 3,
+  "peak_A": 0.642,
+  "largest": 87,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 4,
+  "peak_A": 0.102,
+  "largest": 86,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 5,
+  "peak_A": 0.456,
+  "largest": 86,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 1,
+  "peak_A": 0.819,
+  "largest": 25,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 3,
+  "world": 0,
+  "peak_A": 0.249,
+  "largest": 23,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 6,
+  "peak_A": 0.442,
+  "largest": 75,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 2,
+  "world": 7,
+  "peak_A": 0.289,
+  "largest": 88,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 0,
+  "world": 0,
+  "peak_A": 0.586,
+  "largest": 44,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 3,
+  "world": 2,
+  "peak_A": 0.683,
+  "largest": 31,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 3,
+  "world": 3,
+  "peak_A": 0.256,
+  "largest": 35,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 3,
+  "world": 1,
+  "peak_A": 0.471,
+  "largest": 38,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 3,
+  "peak_A": 0.811,
+  "largest": 26,
+  "divided": true,
+  "n_end": 25
+ },
+ {
+  "genotype": 3,
+  "world": 4,
+  "peak_A": 0.5,
+  "largest": 24,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 3,
+  "world": 5,
+  "peak_A": 0.421,
+  "largest": 35,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 0,
+  "peak_A": 0.787,
+  "largest": 24,
+  "divided": true,
+  "n_end": 21
+ },
+ {
+  "genotype": 1,
+  "world": 2,
+  "peak_A": 0.837,
+  "largest": 25,
+  "divided": true,
+  "n_end": 12
+ },
+ {
+  "genotype": 3,
+  "world": 6,
+  "peak_A": 0.398,
+  "largest": 20,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 3,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 6,
+  "peak_A": 0.806,
+  "largest": 28,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 1,
+  "peak_A": 0.427,
+  "largest": 47,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 0,
+  "peak_A": 0.522,
+  "largest": 41,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 2,
+  "peak_A": 0.514,
+  "largest": 25,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 5,
+  "peak_A": 0.849,
+  "largest": 23,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 3,
+  "peak_A": 0.331,
+  "largest": 34,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 5,
+  "peak_A": 0.571,
+  "largest": 37,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 4,
+  "peak_A": 0.538,
+  "largest": 53,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 6,
+  "peak_A": 0.503,
+  "largest": 56,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 4,
+  "world": 7,
+  "peak_A": 0.521,
+  "largest": 33,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 0,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 4,
+  "peak_A": 0.858,
+  "largest": 26,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 5,
+  "world": 1,
+  "peak_A": 0.551,
+  "largest": 48,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 1,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 1,
+  "world": 7,
+  "peak_A": 0.866,
+  "largest": 22,
+  "divided": true,
+  "n_end": 31
+ },
+ {
+  "genotype": 5,
+  "world": 2,
+  "peak_A": 0.245,
+  "largest": 61,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 5,
+  "world": 4,
+  "peak_A": 0.617,
+  "largest": 41,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 5,
+  "world": 3,
+  "peak_A": 0.436,
+  "largest": 47,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 5,
+  "world": 5,
+  "peak_A": 0.15,
+  "largest": 25,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 2,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 5,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 3,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 4,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 5,
+  "world": 7,
+  "peak_A": 0.555,
+  "largest": 40,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 6,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 6,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 0,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 2,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 1,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 3,
+  "peak_A": 0.0,
+  "largest": 10,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 6,
+  "peak_A": 0.0,
+  "largest": 10,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 5,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 7,
+  "world": 4,
+  "peak_A": 0.352,
+  "largest": 19,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 0,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 1,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 2,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 3,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 4,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 5,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 6,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 8,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 10,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 5,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 1,
+  "peak_A": 0.0,
+  "largest": 12,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 0,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 3,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 6,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 2,
+  "peak_A": 0.0,
+  "largest": 14,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 4,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 0,
+  "peak_A": 0.752,
+  "largest": 23,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 9,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 2,
+  "peak_A": 0.67,
+  "largest": 23,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 0,
+  "peak_A": 0.683,
+  "largest": 19,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 1,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 1,
+  "peak_A": 0.729,
+  "largest": 22,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 3,
+  "peak_A": 0.0,
+  "largest": 11,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 2,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 4,
+  "peak_A": 0.0,
+  "largest": 13,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 5,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 6,
+  "peak_A": 0.0,
+  "largest": 0,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 11,
+  "world": 7,
+  "peak_A": 0.0,
+  "largest": 10,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 3,
+  "peak_A": 0.765,
+  "largest": 24,
+  "divided": false,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 6,
+  "peak_A": 0.768,
+  "largest": 34,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 5,
+  "peak_A": 0.747,
+  "largest": 24,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 10,
+  "world": 4,
+  "peak_A": 0.812,
+  "largest": 41,
+  "divided": true,
+  "n_end": 22
+ },
+ {
+  "genotype": 10,
+  "world": 7,
+  "peak_A": 0.833,
+  "largest": 22,
+  "divided": true,
+  "n_end": 0
+ },
+ {
+  "genotype": 5,
+  "world": 6,
+  "peak_A": 0.516,
+  "largest": 600,
+  "divided": true,
+  "n_end": 600
+ },
+ {
+  "genotype": 5,
+  "world": 0,
+  "peak_A": 0.591,
+  "largest": 600,
+  "divided": true,
+  "n_end": 600
+ }
+]

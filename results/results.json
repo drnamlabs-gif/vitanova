@@ -1,0 +1,63 @@
+{
+  "n_replicates": 16,
+  "n_pairs": 185,
+  "n_collectives": 504,
+  "n_fissions": 198,
+  "ladder": [
+    {
+      "control": "none",
+      "slope": 0.723,
+      "r": 0.738,
+      "n": 185
+    },
+    {
+      "control": "replicate",
+      "slope": 0.649,
+      "r": 0.669,
+      "n": 185
+    },
+    {
+      "control": "phase",
+      "slope": 0.729,
+      "r": 0.71,
+      "n": 185
+    },
+    {
+      "control": "population",
+      "slope": 0.711,
+      "r": 0.686,
+      "n": 185
+    },
+    {
+      "control": "replicate x phase",
+      "slope": 0.554,
+      "r": 0.508,
+      "n": 185
+    },
+    {
+      "control": "replicate x phase x population",
+      "slope": 0.579,
+      "r": 0.549,
+      "n": 176
+    }
+  ],
+  "strict": {
+    "slope": 0.579,
+    "null_mean": -0.0,
+    "null_sd": 0.08,
+    "p": 0.0,
+    "n": 176
+  },
+  "per_replicate_slopes": {
+    "n": 6,
+    "median": 0.597,
+    "positive": 6
+  },
+  "skew": {
+    "individuals": 58264,
+    "ever_reproduced": 0.605,
+    "mean": 0.97,
+    "max": 2,
+    "top10_share": 0.206
+  }
+}

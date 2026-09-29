@@ -1,0 +1,22 @@
+# stored simulation output: regenerate with the run scripts
+*.npz
+*.npy
+
+# build artefacts
+__pycache__/
+*.pyc
+.DS_Store
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+
+# large or transient
+runs/
+*.html

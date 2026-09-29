@@ -1,0 +1,307 @@
+import pygame
+import random
+import math
+
+random.seed(2023)
+
+# Screen dimensions
+WIDTH, HEIGHT = 800, 600
+
+# Boid parameters
+BOID_COUNT = 100
+SPEED = 2
+SEPARATION_RADIUS = 20
+ALIGNMENT_RADIUS = 40
+COHESION_RADIUS = 40
+
+# Colors
+WHITE = (255, 255, 255)
+RED = (255, 0, 0)
+
+# Additional constants for gridlines
+GRIDLINE_COLOR = (50, 50, 50)  # Blurring black color
+GRID_SPACING = 50  # Spacing between gridlines
+
+MIN_DISTANCE = 10  # Minimum distance to maintain between boids to prevent overlap
+BOID_SIZE = 5
+
+INITIAL_ENERGY = 100
+# Energy parameters
+ENERGY_GAIN = 50  # Energy gained from consuming one resource
+ENERGY_COST = 0.1  # Energy lost per cycle
+REPRODUCTION_ENERGY_THRESHOLD = 160  # Energy level required to reproduce
+
+CONSUME_DISTANCE = 5  # Distance within which a resource can be consumed
+# Constants for Boid's Perception Radius
+MIN_PERCEPTION_RADIUS = 2 * CONSUME_DISTANCE  # Twice the consume distance
+MAX_PERCEPTION_RADIUS = min(WIDTH, HEIGHT) / 4  # Quarter of the smaller screen dimension
+RESOURCE_COLOR = (0, 255, 0)
+RESOURCE_SIZE = 10
+NUM_RESOURCES = 3
+
+INITIAL_RESOURCE_ENERGY = 100  # Initial energy in each resource
+RESOURCE_REGEN_RATE = 1  # How quickly resources regenerate energy
+ENERGY_CONSUMPTION_RATE = 10  # Energy consumed per cycle
+MAX_ENERGY = 250  # Maximum energy a boid can have
+
+# evolution parameters
+MUTATION_RATE = 0.05  # 5% chance of mutation
+
+def draw_gridlines(screen, width, height, spacing):
+    # Draw vertical lines
+    for x in range(0, width, spacing):
+        pygame.draw.line(screen, GRIDLINE_COLOR, (x, 0), (x, height))
+    # Draw horizontal lines
+    for y in range(0, height, spacing):
+        pygame.draw.line(screen, GRIDLINE_COLOR, (0, y), (width, y))
+
+pygame.init()
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("Evolving Self-organisation")
+clock = pygame.time.Clock()
+
+
+class Resource:
+    def __init__(self):
+        self.x = random.randint(0, WIDTH)
+        self.y = random.randint(0, HEIGHT)
+        self.energy = INITIAL_RESOURCE_ENERGY  # Initial energy of the resource
+        self.regen_rate = RESOURCE_REGEN_RATE  # Rate at which resource regenerates
+
+    def deplete_energy(self, amount):
+        self.energy -= amount
+        if self.energy < 0:
+            self.energy = 0
+
+    def regenerate_energy(self):
+        self.energy += self.regen_rate
+        if self.energy > INITIAL_RESOURCE_ENERGY:
+            self.energy = INITIAL_RESOURCE_ENERGY
+            
+    def draw(self, screen):
+        pygame.draw.circle(screen, RESOURCE_COLOR, (self.x, self.y), RESOURCE_SIZE)
+
+class Boid:
+    def __init__(self, x, y, genotype=None):
+        self.x = x
+        self.y = y
+        self.dx = random.uniform(-1, 1)
+        self.dy = random.uniform(-1, 1)
+        
+        self.size  = BOID_SIZE
+        
+        self.energy = INITIAL_ENERGY  # Starting energy level
+        
+        self.nearby_resources = []  # Initialize the list of nearby resources
+        
+        # Define genotype
+        if genotype:
+            self.genotype = genotype
+        else:
+            # Random initial genotype
+            self.genotype = {
+                'flocking_affinity': random.uniform(0.1, 0.5),  # Lower initial affinity
+                'separation': random.uniform(0.1, 1),
+                'alignment': random.uniform(0.1, 1),
+                'cohesion': random.uniform(0.1, 1),
+                
+                'resource_perception': random.uniform(MIN_PERCEPTION_RADIUS, MAX_PERCEPTION_RADIUS),
+                'steer_towards_resource': random.uniform(0.1, 0.5),
+            }
+            
+    def detect_resources(self, resources):
+        self.nearby_resources = [resource for resource in resources 
+                                 if math.sqrt((self.x - resource.x)**2 + (self.y - resource.y)**2) 
+                                 < self.genotype['resource_perception']]
+    
+    def move_towards_resource(self, resource):
+        # Calculate the vector pointing from the boid to the resource
+        resource_direction_x = resource.x - self.x
+        resource_direction_y = resource.y - self.y
+
+        # Normalize the direction vector
+        distance_to_resource = math.sqrt(resource_direction_x**2 + resource_direction_y**2)
+        if distance_to_resource > 0:
+            resource_direction_x /= distance_to_resource
+            resource_direction_y /= distance_to_resource
+
+        # Steer towards the resource
+        steer_strength = self.genotype['steer_towards_resource']
+        self.dx += resource_direction_x * steer_strength
+        self.dy += resource_direction_y * steer_strength
+    
+    def consume_resources(self, resources):
+        for resource in resources:
+            distance = math.sqrt((self.x - resource.x)**2 + (self.y - resource.y)**2)
+            if distance < CONSUME_DISTANCE and self.energy < MAX_ENERGY:
+                consume_amount = min(ENERGY_CONSUMPTION_RATE, resource.energy)
+                self.energy += consume_amount
+                resource.deplete_energy(consume_amount)
+                if self.energy >= MAX_ENERGY:
+                    self.energy = MAX_ENERGY  # Set energy to max limit
+                    break  # Stop consuming when reaching max energy
+
+    def update(self, boids, resources):
+        # Detect resources
+        self.detect_resources(resources)
+        
+        # Prioritize moving towards a resource if detected
+        if self.nearby_resources:
+            self.move_towards_resource(self.nearby_resources[0])
+            self.consume_resources(resources)
+        else:
+            self.perform_flocking_behaviors(boids)
+        self.update_position_and_velocity()
+        self.apply_boundary_conditions()
+        return self.check_energy_levels()
+
+    def perform_flocking_behaviors(self, boids):
+        if not self.nearby_resources:
+            separation_x, separation_y = self.separation(boids)
+            alignment_x, alignment_y = self.alignment(boids)
+            cohesion_x, cohesion_y = self.cohesion(boids)
+            self.dx += separation_x + alignment_x + cohesion_x
+            self.dy += separation_y + alignment_y + cohesion_y
+
+    def update_position_and_velocity(self):
+        magnitude = math.sqrt(self.dx**2 + self.dy**2)
+        if magnitude > 0:
+            self.dx = (self.dx / magnitude) * SPEED
+            self.dy = (self.dy / magnitude) * SPEED
+        self.x += self.dx
+        self.y += self.dy
+
+    def apply_boundary_conditions(self):
+        self.x = max(0, min(self.x, WIDTH))
+        self.y = max(0, min(self.y, HEIGHT))
+
+    def check_energy_levels(self):
+        self.energy -= ENERGY_COST
+        if self.energy <= 0:
+            return True  # Boid dies
+        return False  # Boid survives
+
+    def separation(self, boids):
+        if random.random() > self.genotype['flocking_affinity']:
+           return 0, 0
+       
+        # Enhanced separation: influenced by genotype
+        separation_strength = self.genotype['separation']
+        
+        separation_x, separation_y = 0, 0
+        for boid in boids:
+            if boid == self:
+                continue
+            distance = math.sqrt((boid.x - self.x)**2 + (boid.y - self.y)**2)
+            if distance < 1e-5:
+                # Apply a default separation or just skip this boid
+                separation_x += random.uniform(-1, 1) * separation_strength
+                separation_y += random.uniform(-1, 1) * separation_strength
+                return separation_x, separation_y
+            
+            if distance < SEPARATION_RADIUS:
+                separation_x += (self.x - boid.x) / distance * separation_strength
+                separation_y += (self.y - boid.y) / distance * separation_strength
+               
+                # Enhanced separation: stronger push if too close
+                # push_strength = 1 if distance >= MIN_DISTANCE else SEPARATION_RADIUS / distance
+                # separation_x += (self.x - boid.x) * push_strength
+                # separation_y += (self.y - boid.y) * push_strength
+        return separation_x, separation_y
+
+    def alignment(self, boids):
+        if random.random() > self.genotype['flocking_affinity']:
+           return 0, 0
+        
+        alignment_x, alignment_y = 0, 0
+        alignment_count = 0
+        alignment_strength = self.genotype['alignment']
+        for boid in boids:
+            distance = math.sqrt((boid.x - self.x)**2 + (boid.y - self.y)**2)
+            if distance < ALIGNMENT_RADIUS:
+                alignment_x += boid.dx
+                alignment_y += boid.dy
+                alignment_count += 1
+        if alignment_count > 0:
+            alignment_x = (alignment_x / alignment_count - self.dx) * alignment_strength
+            alignment_y = (alignment_y / alignment_count - self.dy) * alignment_strength
+        return alignment_x, alignment_y
+
+    def cohesion(self, boids):
+        if random.random() > self.genotype['flocking_affinity']:
+           return 0, 0
+        
+        cohesion_x, cohesion_y = 0, 0
+        cohesion_count = 0
+        cohesion_strength = self.genotype['cohesion']
+        for boid in boids:
+            distance = math.sqrt((boid.x - self.x)**2 + (boid.y - self.y)**2)
+            if distance < COHESION_RADIUS:
+                cohesion_x += boid.x
+                cohesion_y += boid.y
+                cohesion_count += 1
+        if cohesion_count > 0:
+            cohesion_x = ((cohesion_x / cohesion_count - self.x) * cohesion_strength)
+            cohesion_y = ((cohesion_y / cohesion_count - self.y) * cohesion_strength)
+        return cohesion_x, cohesion_y
+    
+    def reproduce(self):
+        if self.energy >= REPRODUCTION_ENERGY_THRESHOLD:
+            self.energy /= 2  # Split energy between parent and offspring
+            offspring_genotype = self.mutate_genotype(self.genotype)
+            offspring = Boid(self.x, self.y, genotype=offspring_genotype)
+            return offspring
+        return None
+    
+    def mutate_genotype(self, genotype):
+        mutated_genotype = genotype.copy()
+        for trait in mutated_genotype:
+            if random.random() < MUTATION_RATE:
+                mutated_genotype[trait] += random.uniform(-0.1, 0.1)
+        return mutated_genotype
+    
+    def draw(self, screen):
+        pygame.draw.circle(screen, RED, (int(self.x), int(self.y)), self.size)
+
+# Initialize boids
+boids = [Boid(random.randint(0, WIDTH), random.randint(0, HEIGHT)) for _ in range(BOID_COUNT)]
+
+# Initialize resources
+resources = [Resource() for _ in range(NUM_RESOURCES)]
+
+running = True
+while running:
+    screen.fill(WHITE)
+    
+    # Draw gridlines
+    draw_gridlines(screen, WIDTH, HEIGHT, GRID_SPACING)
+
+    # for boid in boids:
+        # boid.update(boids)
+        # boid.draw(screen)
+    
+    # Update boids
+    for boid in boids[:]:
+        offspring = boid.reproduce()
+        if offspring:
+            boids.append(offspring)
+        if boid.update(boids, resources):
+            boids.remove(boid)  # Remove boid if it dies
+        boid.draw(screen)
+
+    # Draw resources
+    for resource in resources:
+        resource.draw(screen)
+        
+    # Regenerate energy in resources
+    for resource in resources:
+        resource.regenerate_energy()
+    
+    pygame.display.flip()
+    clock.tick(30)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            running = False
+
+pygame.quit()

@@ -1,0 +1,50 @@
+[
+  {
+    "run": "seed11",
+    "fission": 18,
+    "fusion": 14,
+    "continuation": 761,
+    "fission_size": 103.8,
+    "fusion_size": 121.0
+  },
+  {
+    "run": "seed12",
+    "fission": 22,
+    "fusion": 20,
+    "continuation": 734,
+    "fission_size": 155.8,
+    "fusion_size": 187.3
+  },
+  {
+    "run": "seed13",
+    "fission": 3,
+    "fusion": 4,
+    "continuation": 479,
+    "fission_size": 361.3,
+    "fusion_size": 383.8
+  },
+  {
+    "run": "seed14",
+    "fission": 10,
+    "fusion": 10,
+    "continuation": 661,
+    "fission_size": 254.9,
+    "fusion_size": 300.6
+  },
+  {
+    "run": "seed15",
+    "fission": 22,
+    "fusion": 23,
+    "continuation": 758,
+    "fission_size": 171.7,
+    "fusion_size": 229.6
+  },
+  {
+    "run": "seed7",
+    "fission": 19,
+    "fusion": 17,
+    "continuation": 911,
+    "fission_size": 198.6,
+    "fusion_size": 189.5
+  }
+]
