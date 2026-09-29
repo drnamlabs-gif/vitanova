@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+title: "VitaNova: a collective-level Darwinian population without collective-level selection"
+message: "If you use this software or its results, please cite it."
+type: software
+authors:
+  - given-names: Nam Hai
+    family-names: Le
+    email: namlehai90@gmail.com
+repository-code: "https://github.com/drnamlabs-gif/vitanova"
+abstract: >-
+  An agent-based model in which collectives of simulated organisms form, acquire
+  an internal structure, grow and divide, with no fitness function and no rule
+  referring to a collective. The divisions compound into lineages up to nineteen
+  collective generations deep, across which a collective-level trait is
+  transmitted, giving a Darwinian population at the collective level that arises
+  without collective-level selection.
+keywords:
+  - evolutionary transitions in individuality
+  - collective reproduction
+  - Darwinian populations
+  - self-organisation
+  - artificial life
+  - agent-based model
+references:
+  - type: article
+    title: "Emergent Collective Reproduction via Evolving Neuronal Flocks"
+    authors:
+      - given-names: Nam Hai
+        family-names: Le
+    year: 2025
+    identifiers:
+      - type: other
+        value: "arXiv:2409.13254"

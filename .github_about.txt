@@ -1,0 +1,10 @@
+Suggested repository description (About box, 350 char max):
+
+  Agent-based model in which collectives form, structure themselves and divide
+  with no fitness function and no rule referring to a group. Divisions compound
+  into lineages 19 collective generations deep, giving a Darwinian population at
+  the collective level without collective-level selection.
+
+Suggested topics:
+  artificial-life  evolutionary-biology  agent-based-model  collective-behavior
+  self-organization  major-transitions  complex-systems  boids
