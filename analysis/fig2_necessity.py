@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 2 - which hand-coded group-level terms are necessary."""
 import json, sys, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, ".")

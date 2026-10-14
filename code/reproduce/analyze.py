@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Apply one strict definition of collective reproduction to every stored run.
 
 The loose test -- "the flock count went from 1 to 2" -- cannot tell reproduction

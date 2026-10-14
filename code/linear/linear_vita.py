@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """VitaNova with the controller written as what it actually is.
 
 The network in the original model, and the minimal NEAT genome that reproduced

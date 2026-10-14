@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Radial-structure statistics for a flock.
 
 The structure of interest is not simply "hollow". The flocks that divide have a

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Run the minimal DEB world and record structure, without any group-level rule
 entering the simulation. Clustering is measurement only -- it never feeds back.
 """

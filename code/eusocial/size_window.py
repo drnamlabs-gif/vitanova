@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Ring integrity as a function of collective size, pooled over all runs."""
 import sys, glob, re, json, numpy as np
 sys.path.insert(0, "../reproduce"); sys.path.insert(0, "../fast")

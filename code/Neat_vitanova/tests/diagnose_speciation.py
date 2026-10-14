@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Why is there only ever one species?
 
 Compatibility distance is  c_E*E/N + c_D*D/N + c_W*Wbar,  with N the size of the

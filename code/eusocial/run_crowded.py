@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Sweep the crowding coefficient: does it hold the collective in the ring window
 without abolishing fission?"""
 import json, os, sys, time

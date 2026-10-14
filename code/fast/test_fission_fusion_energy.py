@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does the fission/fusion balance respond to energy, as in mitochondrial networks?
 
 In cells the balance is not fixed: high energy demand favours a fused,

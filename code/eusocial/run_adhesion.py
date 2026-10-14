@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does nestmate recognition stop collectives drifting back together?
 
 Fission and fusion are counted directly, by tracking which uids belong to which

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Sweep seeds through the headless VitaNova driver, looking for the paper's
 ring-formation-then-division sequence.
 

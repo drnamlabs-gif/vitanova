@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Collective reproduction is repeatable, not a single lucky run."""
 import sys, glob, re, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, "/Volumes/DATA/ETI Presentation/ETI/reproduce")

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Is within-lifetime role switching necessary for the transition?
 
 The model recomputes each agent's caste every step from its own network, and the

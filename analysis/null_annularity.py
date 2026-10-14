@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Size-matched null distribution for the annularity statistic.
 
 The paper's headline is a fraction of time spent 'organised' (A > 0.5 with a

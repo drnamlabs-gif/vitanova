@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Map the flocking substrate onto the polarisation / angular-momentum plane.
 
 Rather than assert three hand-picked regimes, sweep the alignment and cohesion

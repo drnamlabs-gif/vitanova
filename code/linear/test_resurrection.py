@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Ancestor versus descendant.
 
 The standard test in experimental evolution: revive the ancestor and compare it

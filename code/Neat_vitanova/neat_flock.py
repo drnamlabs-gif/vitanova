@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Step 2: a NEAT network per boid, whose outputs are the steering tendencies.
 
 The network does not move the boid. It emits one weight per Reynolds rule, and

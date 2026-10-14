@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 2 - collective division compounds into lineages."""
 import sys, glob, re, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, ".")

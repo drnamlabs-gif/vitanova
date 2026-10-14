@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Selection, or a lottery?
 
 If selection is doing the work, the hundred founding lineages should be culled

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """One seed, run long, to count collective generations.
 
 With the crowding cost the population stays near 30, so a step is cheap and the

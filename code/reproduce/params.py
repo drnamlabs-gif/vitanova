@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """One-at-a-time parameter scan on a single seed.
 
 Two groups of parameters are varied. The first four are the hand-coded

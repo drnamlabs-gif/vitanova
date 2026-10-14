@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """What happens between ring formation and division, and which parts of it the
 rules actually specify.
 

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Shape of the soldier-time distribution, with and without the gate."""
 import json, os, sys, time
 from concurrent.futures import ProcessPoolExecutor, as_completed

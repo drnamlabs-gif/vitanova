@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Step 2, on the exact VitaNova substrate.
 
 Same question as before but now with every flocking parameter identical to

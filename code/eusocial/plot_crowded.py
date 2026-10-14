@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Largest-collective size and ring state over time, beta=0 vs beta>0."""
 import sys, glob, re, numpy as np, matplotlib
 matplotlib.use("Agg"); import matplotlib.pyplot as plt

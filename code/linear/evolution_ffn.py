@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """The three-arm evolution ablation, on the original feed-forward network.
 
 evolving     100 random controllers, mutation at every birth, selection.

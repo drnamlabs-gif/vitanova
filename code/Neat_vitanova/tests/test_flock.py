@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does the flocking substrate reproduce the known collective states?"""
 import json, os, sys
 import numpy as np

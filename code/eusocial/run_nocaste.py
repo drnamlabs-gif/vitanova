@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Ring and collective division with castes deleted."""
 import json, os, sys, time
 from concurrent.futures import ProcessPoolExecutor, as_completed

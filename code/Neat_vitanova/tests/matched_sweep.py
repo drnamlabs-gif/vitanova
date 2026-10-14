@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does structure accumulate, and is it kept?
 
 Two arms, both with mutation matched to the original network.

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """The flocking substrate of evo_cooperative_flock.py, reproduced exactly.
 
 Every constant and every formula is taken from that file so that the only thing

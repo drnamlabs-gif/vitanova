@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Productivity and predation scan for the DEB world."""
 import os, sys
 from concurrent.futures import ProcessPoolExecutor, as_completed

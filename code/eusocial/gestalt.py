@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Nestmate recognition on a gestalt badge exchanged by contact.
 
 Heritable recognition cannot work here, and the reason is structural rather

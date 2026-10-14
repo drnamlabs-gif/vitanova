@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Caste-free VitaNova with a density-dependent maintenance cost.
 
 Motivation.  Without any cap, every run ends the same way: a collective reaches

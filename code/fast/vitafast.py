@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Vectorised port of evo_cooperative_flock.py -- same model, ~100x faster.
 
 The model is unchanged: same constants, same network shape, same Allee term,

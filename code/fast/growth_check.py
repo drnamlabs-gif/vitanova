@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Distributional check: how fast does the population grow, original vs fast?
 
 Trajectories cannot be compared after a few hundred steps, so compare the step

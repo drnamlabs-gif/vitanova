@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 3 - collective size is inherited across the lineage."""
 import sys, glob, re, json, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, ".")

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Instrumented run of the paper model, for the window around a division.
 
 Adds what the plain runs lack: a stable identity per boid, a parent link for

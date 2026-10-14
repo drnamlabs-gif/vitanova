@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does a non-reproducing strategy invade a population of reproducers?
 
 Two arms, identical except that in the control the defence investment buys

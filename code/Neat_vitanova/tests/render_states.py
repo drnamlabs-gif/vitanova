@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Pick the three canonical states from the phase diagram and draw them."""
 import json, os, sys
 import numpy as np

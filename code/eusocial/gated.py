@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Reproduction gated on the behavioural state.
 
 One change to the model: an agent in the soldier state cannot reproduce on that

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Reproductive division of labour, if it evolves.
 
 In the model as it stands a soldier and a grouped worker earn exactly the same

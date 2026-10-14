@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 4 - the organised state is a transient, and what sets its window."""
 import json, sys, numpy as np, matplotlib.pyplot as plt
 from collections import defaultdict

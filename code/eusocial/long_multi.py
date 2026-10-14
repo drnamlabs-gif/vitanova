@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """How long does a collective lineage last, and how deep does it get?
 
 Descent is counted only through divisions. A collective that appears from a

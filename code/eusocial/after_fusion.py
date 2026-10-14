@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """What happens to a collective's size after it absorbs another one?
 
 The crowding cost is an energetic brake on reproduction, not a barrier to

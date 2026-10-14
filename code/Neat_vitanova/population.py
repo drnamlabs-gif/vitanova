@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Generational NEAT population: speciation, fitness sharing, reproduction.
 
 Only used for benchmarking the core. VitaNova itself reproduces agents

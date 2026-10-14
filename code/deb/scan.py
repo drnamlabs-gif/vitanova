@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Small parallel scan over ecological parameters of the DEB world."""
 import itertools, json, os, sys, time
 from concurrent.futures import ProcessPoolExecutor, as_completed

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Run NEAT-VitaNova and record what appears.
 
 No fitness function is involved anywhere. The metrics below are observation

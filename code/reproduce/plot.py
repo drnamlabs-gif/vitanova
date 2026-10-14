@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Redraw VitaNova figures from stored snapshots, never from a re-run.
 
 Reads the .npz written by `vitanova.py run --snapshot-every N` and produces

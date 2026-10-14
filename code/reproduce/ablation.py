@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Ablation ladder for the two-layer ETI claim.
 
 The claim the paper makes is that an evolutionary transition in individuality

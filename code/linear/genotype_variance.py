@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does the genotype determine the collective phenotype at all?
 
 In the clonal arm every agent shares one controller, so a run is fully specified

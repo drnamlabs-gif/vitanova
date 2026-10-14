@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Build a standalone HTML viewer from a run's stored snapshots.
 
 Replaces watching pygame: the simulation has already run headless, so this is

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """A minimal NEAT, written for this project rather than taken from a library.
 
 Two reasons for writing it. First, the standard implementations assume

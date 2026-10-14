@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Run the vectorised model, detect ring formation and division, sweep seeds.
 
 Division here needs all of: a sustained single cluster of at least MIN_PARENT

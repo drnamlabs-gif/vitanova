@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Two checks on the NEAT runs, against the fixed-topology model.
 
 1. Caste stratification. Do soldiers sit in the core and workers on the rim?

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Control: is the evolved milling state real, or just a small-group artefact?
 
 Angular momentum is easier to achieve in a small group, and the evolved

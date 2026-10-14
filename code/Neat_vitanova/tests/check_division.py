@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Do the NEAT runs show group-level reproduction, or only ring structure?
 
 Same detector used elsewhere in this project: a sustained single cluster that is

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 1 - the phenomenon and its transience, in one run."""
 import sys, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, "/Volumes/DATA/ETI Presentation/ETI/reproduce")

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Step 2: can evolved tendency controllers reach collective states, including
 one that fixed weights could not?
 

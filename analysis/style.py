@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """One visual language for every figure in the paper."""
 import matplotlib as mpl
 import matplotlib.pyplot as plt

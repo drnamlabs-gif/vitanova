@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Collective genealogy and heredity at the new level.
 
 Reproduction alone is not an evolutionary transition. Godfrey-Smith's minimum

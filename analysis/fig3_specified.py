@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 3 - the radial structure is not written into the energy rules."""
 import json, sys, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, ".")

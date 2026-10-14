@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Evaluate one NEAT genome for many agents at once.
 
 The genome is feed-forward, so its nodes can be put in topological order and

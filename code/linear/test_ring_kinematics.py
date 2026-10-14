@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Is the ring a kinematic structure -- an orbit -- or a static arrangement?
 
 If some members sit in the middle while others circle, then velocity should be

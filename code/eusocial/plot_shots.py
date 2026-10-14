@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Zoomed panels for any saved run: python plot_shots.py <npz> <steps> <title>"""
 import sys, numpy as np, matplotlib
 matplotlib.use("Agg"); import matplotlib.pyplot as plt

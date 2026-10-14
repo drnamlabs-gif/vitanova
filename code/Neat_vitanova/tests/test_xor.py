@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """The standard NEAT correctness check.
 
 XOR is not linearly separable, so a network with no hidden node cannot solve it.

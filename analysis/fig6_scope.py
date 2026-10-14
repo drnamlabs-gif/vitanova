@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 6 - collectives are chimeras, and size regulation makes fusion survivable."""
 import json, sys, numpy as np, matplotlib.pyplot as plt
 sys.path.insert(0, ".")

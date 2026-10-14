@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Nestmate recognition on a dedicated tag locus.
 
 Recognition on the 150-weight control genome does not work, and the reason is

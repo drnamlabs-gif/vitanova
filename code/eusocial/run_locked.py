@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Ring, division and characteristic size with the role locked at birth."""
 import json, os, sys, time
 from concurrent.futures import ProcessPoolExecutor, as_completed

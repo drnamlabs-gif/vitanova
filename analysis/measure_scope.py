@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Lineage composition of collectives, and size recovery after a fusion."""
 import json, os, sys
 for v in ("OPENBLAS_NUM_THREADS", "OMP_NUM_THREADS"): os.environ.setdefault(v, "1")

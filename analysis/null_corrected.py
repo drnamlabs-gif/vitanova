@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Compare observed annularity against the size-matched null, properly."""
 import sys, json, numpy as np
 sys.path.insert(0, "/Volumes/DATA/ETI Presentation/ETI/reproduce")

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Selection shapes the collective; it does not make it reproduce."""
 import sys, json, numpy as np, matplotlib.pyplot as plt
 from scipy.stats import mannwhitneyu, spearmanr, f_oneway

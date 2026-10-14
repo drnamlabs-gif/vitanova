@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Are the two daughter structures lineage-built, or a random split of the mother?
 
 This is the fraternal / egalitarian question in the ETI literature, asked of one

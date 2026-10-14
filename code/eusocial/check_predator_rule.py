@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Is the large-group predator rule inert in the caste-free model?
 
 In vitafast._predators the large-group branch sits in an `elif` after the

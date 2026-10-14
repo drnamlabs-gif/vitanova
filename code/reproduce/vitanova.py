@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Headless, instrumented driver for the original VitaNova simulation.
 
 Loads a VitaNova script *unmodified* and drives it without pygame,

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Genotype versus initial condition, on the original feed-forward network.
 
 Same design as genotype_variance.py but using vitafast.Fast, the full model with

@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Which model variants produce the ring, and which produce collective division?
 
 Each variant is run on the same seeds for the same number of steps, and scored

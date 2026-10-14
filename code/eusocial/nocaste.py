@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """The model with castes removed entirely.
 
 Locking the role at birth changed nothing, and only 6% of individuals ever

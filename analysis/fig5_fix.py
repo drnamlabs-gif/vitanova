@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 5 - a locally sensed maintenance cost makes the organised state persistent."""
 import json, re, sys, glob, numpy as np, matplotlib.pyplot as plt
 from scipy.stats import wilcoxon

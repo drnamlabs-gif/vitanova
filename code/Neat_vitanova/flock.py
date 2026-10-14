@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Step 1: classical Reynolds flocking, no evolution, as a reference.
 
 Before putting an evolved controller in charge of a boid it is worth knowing

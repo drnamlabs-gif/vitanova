@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Run the linear-tanh controller and read the coefficients that evolve.
 
 The point of writing the controller as a 6 x 11 matrix is that the result can

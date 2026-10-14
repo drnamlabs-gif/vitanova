@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Is there a genetic signal that separates one collective from another?
 
 Nestmate recognition can only work if within-collective genetic distance is

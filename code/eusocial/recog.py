@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Nestmate recognition on top of the crowding cost.
 
 In real eusocial insects colony boundaries are held by nestmate recognition:

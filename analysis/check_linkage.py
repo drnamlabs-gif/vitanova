@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does the size window depend on how a collective is delimited?"""
 import sys, glob, re, numpy as np
 E = "/Volumes/DATA/ETI Presentation/ETI"

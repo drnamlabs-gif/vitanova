@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """VitaNova with NEAT controllers.
 
 Every element of evo_cooperative_flock.py is reproduced: 100 boids and 10

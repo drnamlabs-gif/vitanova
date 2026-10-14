@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Minimal Dynamic Energy Budget rebuild of VitaNova.
 
 Written from scratch rather than patched onto evo_cooperative_flock.py, so that

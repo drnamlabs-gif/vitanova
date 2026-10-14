@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Differential adhesion instead of repulsion.
 
 Five recognition mechanisms failed to stop collectives merging, and they failed

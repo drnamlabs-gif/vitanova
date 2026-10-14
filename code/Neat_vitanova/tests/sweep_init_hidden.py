@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """What can NEAT do once it starts with hidden nodes?
 
 With a minimal start, most populations never reproduce at all: a boid needs the

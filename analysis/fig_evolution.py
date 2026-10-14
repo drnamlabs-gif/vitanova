@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Selection happens; it changes who is present, not what happens."""
 import sys, json, numpy as np, matplotlib.pyplot as plt
 from scipy.stats import wilcoxon, mannwhitneyu

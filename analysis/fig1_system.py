@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Figure 1 - the system and what it does, in one figure."""
 import sys, numpy as np, matplotlib.pyplot as plt
 from matplotlib.patches import Circle

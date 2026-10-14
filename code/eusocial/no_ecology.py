@@ -1,3 +1,4 @@
+# Dr. Nam H. Le. drnamlabs.com, bunnyquant.com
 """Does an evolving flock with no energetic ecology produce the pattern?
 
 The worker energy subsidy is what makes grouping pay. Switching it off leaves
