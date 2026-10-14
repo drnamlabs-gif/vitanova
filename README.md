@@ -20,8 +20,11 @@ that evaluates one. Collectives nevertheless form, acquire an internal ring-like
 structure, grow, and divide, and the divisions compound into lineages.
 
 The system was introduced in Le et al. (2025), arXiv:2409.13254, which described
-that behaviour qualitatively. This repository contains the measurements that the
-earlier paper did not make.
+that behaviour qualitatively. This repository is the updated continuation of the
+original 2024 implementation that accompanied that paper,
+[namlehai90/Evolving-Neuronal-Flocks](https://github.com/namlehai90/Evolving-Neuronal-Flocks):
+the model is unchanged, ported to a vectorised core and instrumented, and this
+repository adds the measurements that the earlier paper did not make.
 
 ---
 
