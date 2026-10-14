@@ -3,6 +3,15 @@
 Code and analysis for a study of **collective-level Darwinian populations** in a
 minimal agent-based model.
 
+![A collective forms, closes into a ring, and divides into two daughter
+collectives (seed 7; no fitness function anywhere in the
+model)](media/vitanova_division.gif)
+
+*One full life cycle of a collective: dispersal, aggregation, ring formation,
+and division into two daughters (shaded). Left: the whole arena, with the
+camera window marked. Right: the tracked collective. Rendered by
+`analysis/anim_division.py`.*
+
 VitaNova is a boids-derived simulation in which agents carry evolvable neural
 controllers, gain energy only when they have near neighbours, and reproduce
 asexually when they have accumulated enough of it. There is **no fitness
