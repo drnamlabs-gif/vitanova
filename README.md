@@ -3,6 +3,10 @@
 Code and analysis for a study of **collective-level Darwinian populations** in a
 minimal agent-based model.
 
+**Status.** Manuscript submitted to *Artificial Life* (MIT Press) on
+24 October 2026: N. H. Le, "Collective-level selection without a
+collective-level criterion".
+
 ![A collective forms, closes into a ring, and divides into two daughter
 collectives (seed 7; no fitness function anywhere in the
 model)](media/vitanova_division.gif)
